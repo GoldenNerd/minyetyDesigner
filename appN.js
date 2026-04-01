@@ -1,1 +1,2864 @@
-'use strict';const _0x102882=_0x3808;(function(_0x3c851f,_0xa3f210){const _0x33e494=_0x3808,_0x338a68=_0x3c851f();while(!![]){try{const _0x3bf990=-parseInt(_0x33e494(0x15e))/0x1+-parseInt(_0x33e494(0x1bb))/0x2+-parseInt(_0x33e494(0x7a))/0x3+parseInt(_0x33e494(0x155))/0x4*(-parseInt(_0x33e494(0x9e))/0x5)+parseInt(_0x33e494(0x94))/0x6+parseInt(_0x33e494(0x10a))/0x7*(parseInt(_0x33e494(0xcc))/0x8)+parseInt(_0x33e494(0x183))/0x9*(parseInt(_0x33e494(0x1c7))/0xa);if(_0x3bf990===_0xa3f210)break;else _0x338a68['push'](_0x338a68['shift']());}catch(_0x3d9be2){_0x338a68['push'](_0x338a68['shift']());}}}(_0x2461,0xe416c));function readPairDirective(){const _0x3fdebf=_0x3808;return JSON['parse'](window[_0x3fdebf(0x167)][_0x3fdebf(0xc6)](_0x3fdebf(0x11d)));}function readMachineSerialNum(){const _0x476e14=_0x3808;return JSON[_0x476e14(0x1a1)](window[_0x476e14(0x167)][_0x476e14(0xc6)](_0x476e14(0xdf)));}function preserveScriptSerialNum(){const _0x3b13f2=_0x3808,_0x15d027=calcDat['softwareSerialNumber'];console[_0x3b13f2(0x151)]('softwareSerialNumber\x20to\x20preserve:\x20',calcDat[_0x3b13f2(0x140)]),window[_0x3b13f2(0x167)]['setItem'](_0x3b13f2(0x140),JSON['stringify'](_0x15d027));}function readScriptSerialNum(){const _0xfdb664=_0x3808;return JSON[_0xfdb664(0x1a1)](window['localStorage'][_0xfdb664(0xc6)](_0xfdb664(0x140)));}function disablePairing(){const _0x30645=_0x3808;window[_0x30645(0x167)][_0x30645(0x96)](_0x30645(0x11d),JSON['stringify'](!0x1));}function firstRun(){const _0x52bd09=_0x3808;!0x0===readPairDirective()&&(console[_0x52bd09(0x151)]('Now\x20performing\x20first\x20run\x20pairing\x20procedure...'),calcDat[_0x52bd09(0x140)]=readMachineSerialNum(),preserveScriptSerialNum(),disablePairing(),console['log'](_0x52bd09(0x1be)));}function testScriptUsagePermit(){const _0x813ed7=_0x3808,_0x12c419=readPairDirective();if(!0x1!==_0x12c419)return allowSwitchingToNextPage=!0x1,void(document[_0x813ed7(0x75)](_0x813ed7(0x1d1))[_0x813ed7(0x153)]='Serialization\x20Fault:\x20PC\x20not\x20authorized.');if(!0x1===_0x12c419){calcDat[_0x813ed7(0x140)]=readScriptSerialNum();const _0x1b2d80=readMachineSerialNum();_0x1b2d80===calcDat['softwareSerialNumber']&&(allowSwitchingToNextPage=!0x0,document['querySelector']('#password')['innerText']='PC\x20ID:\x20'+_0x1b2d80+_0x813ed7(0xbb)+constDat[_0x813ed7(0x1b0)],console[_0x813ed7(0x151)](_0x813ed7(0x8c),_0x1b2d80,_0x813ed7(0x11f),calcDat[_0x813ed7(0x140)],_0x813ed7(0x74),constDat[_0x813ed7(0x1b0)]));}else document[_0x813ed7(0x75)](_0x813ed7(0x1d1))[_0x813ed7(0x153)]=_0x813ed7(0x1b8);}let activeObj,allowSwitchingToNextPage,rd={'DataContainerNames':[_0x102882(0x129),_0x102882(0xb2),'slats',_0x102882(0x169),'bottomBar',_0x102882(0x14f),_0x102882(0x16a),_0x102882(0xed)],'startPage':{'objNo':0x0,'pageHeader':'🐝\x20Welcome\x20to\x20RD\x20Designer!\x20🐝','sketchFileName':_0x102882(0x8f),'noOfDataPoints':0x0,'domInchesPlaceholders':[],'labels':[],'datumKeys':[],'datumValues':[],'dataPoints':{},'prevObjName':_0x102882(0x191),'activeObjName':_0x102882(0x191),'nextObjName':_0x102882(0x129)},'rdOutline':{'objNo':0x1,'pageHeader':_0x102882(0xd1),'sketchFileName':'url(rdOutline.jpg)','noOfDataPoints':0x2,'ftPresets':['',''],'ftView':['inline-block',_0x102882(0x1a3)],'inchesPresets':['',''],'domInchesPlaceholders':[_0x102882(0xfa),_0x102882(0xfa)],'labels':[_0x102882(0x134),_0x102882(0x139)],'datumKeys':[_0x102882(0x77),_0x102882(0x16b)],'datumValues':[],'dataPoints':{'width':0x0,'height':0x0},'prevObjName':'startPage','activeObjName':_0x102882(0x129),'nextObjName':_0x102882(0xb2)},'barrel':{'objNo':0x2,'pageHeader':_0x102882(0x8d),'sketchFileName':'url(barrel.jpg)','noOfDataPoints':0x1,'ftPresets':[0x0],'inchesPresets':[0x4],'ftView':[_0x102882(0x9f)],'domInchesPlaceholders':[_0x102882(0x1c2)],'labels':[_0x102882(0x1d2)],'datumKeys':[_0x102882(0x79)],'datumValues':[],'dataPoints':{},'prevObjName':_0x102882(0x129),'activeObjName':_0x102882(0xb2),'nextObjName':'slats'},'slats':{'objNo':0x3,'pageHeader':_0x102882(0x154),'sketchFileName':_0x102882(0x1ab),'noOfDataPoints':0x2,'ftPresets':[0x0,0x0],'inchesPresets':[0x1,0x2],'ftView':['none',_0x102882(0x9f)],'domInchesPlaceholders':[_0x102882(0x1c2),_0x102882(0xe3)],'labels':['Slats\x20Style',_0x102882(0x99)],'datumKeys':[_0x102882(0x184),_0x102882(0x15c)],'datumValues':[],'dataPoints':{},'prevObjName':_0x102882(0xb2),'activeObjName':_0x102882(0x1b2),'nextObjName':'bottomBar'},'bottomBar':{'objNo':0x4,'pageHeader':'Bottom\x20Bar:','sketchFileName':_0x102882(0x114),'noOfDataPoints':0x4,'ftPresets':[0x0,0x0,0x0,0x0],'inchesPresets':[0x2,0x2,0.125,0x2],'ftView':[_0x102882(0x9f),'none',_0x102882(0x9f),_0x102882(0x9f)],'domInchesPlaceholders':[_0x102882(0xfa),_0x102882(0xfa),_0x102882(0xfa),'Qty\x200'],'labels':[_0x102882(0x90),'Angle\x20Width','Angle\x20Thickness',_0x102882(0x142)],'datumKeys':[_0x102882(0xb8),_0x102882(0x13c),'bbAngleThickness','bbAnglesAmount'],'datumValues':[],'dataPoints':{'bbAngleVerticalSide':0x0,'bbAngleHorizontalSide':0x0,'bbAngleThickness':0x0,'bbAnglesAmount':0x0},'prevObjName':_0x102882(0x1b2),'activeObjName':_0x102882(0x169),'nextObjName':_0x102882(0x16a)},'misc':{'objNo':0x5,'pageHeader':'Other\x20Items:','sketchFileName':_0x102882(0x1d9),'noOfDataPoints':0x4,'ftPresets':[0x0,0x0,0x0,0x0],'inchesPresets':[0x1,0x0,0x0,0x0],'ftView':[_0x102882(0x9f),_0x102882(0x9f),_0x102882(0x9f),'none'],'domInchesPlaceholders':['none',_0x102882(0x9f),'none',_0x102882(0x9f)],'labels':[_0x102882(0xd9),_0x102882(0x72),'Slidebolts',_0x102882(0x189)],'datumKeys':[_0x102882(0xc8),_0x102882(0x148),_0x102882(0xf2),_0x102882(0x170)],'datumValues':[],'dataPoints':{},'prevObjName':_0x102882(0x169),'activeObjName':_0x102882(0x16a),'nextObjName':_0x102882(0x14f)},'spring':{'objNo':0x6,'pageHeader':_0x102882(0x160),'sketchFileName':'url(spring.jpg)','noOfDataPoints':0x2,'ftPresets':[0x0,0x0],'inchesPresets':[0x3,0x1],'ftView':[_0x102882(0x9f),_0x102882(0x9f)],'domInchesPlaceholders':[_0x102882(0xfa),_0x102882(0x123)],'labels':[_0x102882(0xd8),_0x102882(0xa3)],'datumKeys':[_0x102882(0xf3),'amountOfSprings'],'datumValues':[],'dataPoints':{},'prevObjName':_0x102882(0x16a),'activeObjName':'spring','nextObjName':'result'},'result':{'objNo':0x8,'pageHeader':'Spring\x20Parameters:','sketchFileName':_0x102882(0xf4),'noOfDataPoints':0x5,'ftPresets':[0x0,0x0,0x0,0x0,0x0],'inchesPresets':['0','0','0','0','0'],'ftView':[_0x102882(0x9f),_0x102882(0x9f),_0x102882(0x9f),_0x102882(0x9f),_0x102882(0x9f)],'domInchesPlaceholders':['0\x20inches',_0x102882(0xfa),_0x102882(0xfa),_0x102882(0x1ae),'1\x20lb'],'labels':[_0x102882(0x14a),_0x102882(0x119),_0x102882(0xe6),'\x20Amount\x20of\x20Coils',_0x102882(0x1a8)],'datumKeys':[_0x102882(0x14c),_0x102882(0x16c),_0x102882(0x77),'amountOfCoils','weight'],'datumValues':[],'dataPoints':{'selectedWireDiam':0x0,'internalDiameter':0x0,'width':0x0,'amountOfCoils':0x0,'weight':0x0},'prevObjName':_0x102882(0x191),'activeObjName':'result','nextObjName':_0x102882(0xeb)}};function returnTemplateId(){const _0x38e278=_0x102882;return document[_0x38e278(0x75)](_0x38e278(0x93))[_0x38e278(0x14d)]('class');}function homePageNameToLocSto(){const _0x3865f0=_0x102882;window[_0x3865f0(0x167)][_0x3865f0(0x96)](_0x3865f0(0x9b),JSON['stringify'](_0x3865f0(0x191)));}function activeCompObjNameFromLS(){const _0x542d42=_0x102882;return JSON[_0x542d42(0x1a1)](window['localStorage'][_0x542d42(0xc6)](_0x542d42(0x9b)));}function displayTemplateId(){const _0x39b0b9=_0x102882,_0x3f782e=document['querySelector'](_0x39b0b9(0x93)),_0x132330=document[_0x39b0b9(0x75)](_0x39b0b9(0x93))[_0x39b0b9(0x14d)](_0x39b0b9(0xb9));_0x3f782e[_0x39b0b9(0x136)]=_0x39b0b9(0x7d)+_0x132330;}function establishPageName(){const _0x2524c8=_0x102882,_0x5204e8=activeCompObjNameFromLS();document[_0x2524c8(0x75)](_0x2524c8(0x165))[_0x2524c8(0x81)]('class',''+_0x5204e8);}function returnTheActiveObj(){const _0x5c0b8e=_0x102882;return rd[document[_0x5c0b8e(0x75)]('#name-of-component-obj')['getAttribute']('class')];}function returnTheActivePageName(){const _0x2c9d46=_0x102882;return''+activeObj[_0x2c9d46(0xc7)];}function displayPageName(){const _0x3f3506=_0x102882;document[_0x3f3506(0x75)](_0x3f3506(0x165))['innerHTML']=_0x3f3506(0xa5)+returnTheActivePageName();}function populatePageTopHeather(){const _0x5b85fb=_0x102882;document[_0x5b85fb(0x75)](_0x5b85fb(0x159))[_0x5b85fb(0x136)]=activeObj['pageHeader'];}function PopulateCompSketchFrame(){const _0x35b5c2=_0x102882,_0x445594=activeObj['sketchFileName'];document[_0x35b5c2(0x75)](_0x35b5c2(0xdc))[_0x35b5c2(0x1c2)][_0x35b5c2(0xa1)](_0x35b5c2(0xac),''+_0x445594);}function updatePrevBtnLabel(){0x1===activeObj['objNo']&&(previousComponentBtn['value']='Start\x20Page');}function populateDatumLabels(){const _0x333125=_0x102882,_0x1eef63=document[_0x333125(0x1cf)](_0x333125(0x197)),_0x3d1ab3=activeObj[_0x333125(0xde)];for(let _0x4f4779=0x0;_0x4f4779<_0x1eef63[_0x333125(0x19c)];_0x4f4779++)_0x1eef63[_0x4f4779][_0x333125(0x136)]=_0x3d1ab3[_0x4f4779];}function ldFtDfaults(){const _0x547ac9=_0x102882,_0x3160ca=document[_0x547ac9(0x1cf)](_0x547ac9(0x110)),_0x42bc19=activeObj[_0x547ac9(0xce)];for(var _0x3aceb8=0x0;_0x3aceb8<_0x42bc19;_0x3aceb8++)_0x3160ca[_0x3aceb8][_0x547ac9(0x1a4)]=activeObj[_0x547ac9(0x13d)][_0x3aceb8];}function ldInchesDfaults(){const _0x4814ed=_0x102882,_0x1b6285=document[_0x4814ed(0x1cf)](_0x4814ed(0x84)),_0x1d28b1=activeObj[_0x4814ed(0xce)];for(var _0x597f1c=0x0;_0x597f1c<_0x1d28b1;_0x597f1c++)_0x1b6285[_0x597f1c]['value']=activeObj['inchesPresets'][_0x597f1c];}function setInchesPlaceholders(){const _0x1af515=_0x102882,_0x356a0b=document[_0x1af515(0x1cf)](_0x1af515(0x84)),_0x502f1f=activeObj[_0x1af515(0xdd)],_0x5ed785=activeObj[_0x1af515(0xce)];for(var _0x1a360e=0x0;_0x1a360e<_0x5ed785;_0x1a360e++)_0x356a0b[_0x1a360e][_0x1af515(0xec)]=_0x502f1f[_0x1a360e];}function setFtValsVisibility(){const _0xab8cf0=_0x102882,_0x328b24=document['getElementsByClassName']('feet-value'),_0xea99dc=activeObj[_0xab8cf0(0xce)];for(var _0x142ad1=0x0;_0x142ad1<_0xea99dc;_0x142ad1++){const _0x45c5ba=activeObj[_0xab8cf0(0xb4)][_0x142ad1];_0x328b24[_0x142ad1]['style'][_0xab8cf0(0xa1)](_0xab8cf0(0x1cd),''+_0x45c5ba);}}function hideEmptyDatums(){const _0xf94599=_0x102882,_0x2c98f0=Array['from'](document[_0xf94599(0x149)]('li')),_0x106fbb=activeObj['noOfDataPoints'];for(let _0x38076b=0x0;_0x38076b<_0x106fbb;_0x38076b++)_0x2c98f0[_0x38076b][_0xf94599(0x1c2)]['position']=_0xf94599(0x18b);}function initializeBtnsStyles(){const _0x188233=_0x102882,_0x171bb2=document['querySelector'](_0x188233(0x198)),_0x4f0052=document[_0x188233(0x75)](_0x188233(0xa8)),_0x160465=document[_0x188233(0x75)](_0x188233(0x174)),_0x229ed6=document[_0x188233(0x75)]('#next-page');0x0===activeObj[_0x188233(0x1a5)]?_0x171bb2[_0x188233(0x1c2)][_0x188233(0x175)]=_0x188233(0x146):(_0x4f0052[_0x188233(0x1c2)]['backgroundColor']='lightgray',_0x160465[_0x188233(0x1c2)]['backgroundColor']=_0x188233(0xbc),_0x229ed6['style']['backgroundColor']=_0x188233(0xbc),_0x4f0052[_0x188233(0x1c2)]['color']=_0x188233(0x97),_0x160465[_0x188233(0x1c2)][_0x188233(0x175)]=_0x188233(0xb5),_0x229ed6['style'][_0x188233(0x175)]=_0x188233(0x120));}function mousedownPreviousBtnAnimation(){const _0x51d79e=_0x102882,_0x5c9e32=document['querySelector'](_0x51d79e(0x174));_0x5c9e32[_0x51d79e(0x1c2)][_0x51d79e(0x13e)]=_0x51d79e(0x113),_0x5c9e32[_0x51d79e(0x1c2)][_0x51d79e(0x175)]=_0x51d79e(0x146);}window[_0x102882(0x12d)]=function(){const _0x4c64de=_0x102882;allowSwitchingToNextPage=!0x1,'home'===returnTemplateId()&&(homePageNameToLocSto(),firstRun(),testScriptUsagePermit()),establishPageName(),activeObj=returnTheActiveObj(),populatePageTopHeather(),PopulateCompSketchFrame(),updatePrevBtnLabel(),populateDatumLabels(),ldFtDfaults(),ldInchesDfaults(),setInchesPlaceholders(),setFtValsVisibility(),hideEmptyDatums(),initializeBtnsStyles(),0x8===activeObj[_0x4c64de(0x1a5)]&&styleCaptureBtnAsCalcBtn();};const previousPageBtn=document[_0x102882(0x75)](_0x102882(0x174));function mousedownNextBtnAnimation(){const _0x14db52=_0x102882,_0x570c2e=document[_0x14db52(0x75)](_0x14db52(0x199));_0x570c2e[_0x14db52(0x1c2)][_0x14db52(0x13e)]=_0x14db52(0x113),_0x570c2e['style']['color']=_0x14db52(0x146);}previousPageBtn[_0x102882(0x1c9)](_0x102882(0xae),mousedownPreviousBtnAnimation);const nextPageBtn=document[_0x102882(0x75)](_0x102882(0x199));function stashPrevComponentName(){const _0x3a769d=_0x102882,_0x11a122=activeObj['prevObjName'];window['localStorage']['setItem'](_0x3a769d(0x9b),JSON[_0x3a769d(0x143)](_0x11a122));}function switchToPrevComponent(){setTimeout(function(){const _0x56952c=_0x3808;0x1===activeObj[_0x56952c(0x1a5)]||0x8===activeObj[_0x56952c(0x1a5)]?window[_0x56952c(0x1a2)]='index.html':window[_0x56952c(0x1a2)]=_0x56952c(0x185);},0x32);}nextPageBtn[_0x102882(0x1c9)]('mousedown',mousedownNextBtnAnimation);const previousComponentBtn=document[_0x102882(0x75)]('#previous-page');function stashNxtComponentName(){const _0x57b9f8=_0x102882,_0x44f10f=activeObj[_0x57b9f8(0x196)];window[_0x57b9f8(0x167)][_0x57b9f8(0x96)](_0x57b9f8(0x9b),JSON[_0x57b9f8(0x143)](_0x44f10f));}function switchToNxtComponent(){setTimeout(()=>{const _0x277bc6=_0x3808,_0x3d384f=JSON['parse'](window[_0x277bc6(0x167)][_0x277bc6(0xc6)](_0x277bc6(0x79)));console[_0x277bc6(0x151)](_0x277bc6(0x17c),activeObj['objNo'],_0x277bc6(0x1cc),_0x3d384f),0x5===activeObj['objNo']&&0x5===_0x3d384f?window[_0x277bc6(0x1a2)]=_0x277bc6(0x1c3):0x6===activeObj[_0x277bc6(0x1a5)]?window[_0x277bc6(0x1a2)]=_0x277bc6(0x141):window[_0x277bc6(0x1a2)]=_0x277bc6(0x185);},0x32);}function mousedownCaptureBtnAnimation(){const _0x158de2=_0x102882,_0x43321a=document['querySelector'](_0x158de2(0xa8));_0x43321a[_0x158de2(0x1c2)][_0x158de2(0x13e)]='black',_0x43321a['style'][_0x158de2(0x175)]=_0x158de2(0x146);}previousComponentBtn[_0x102882(0x1c9)]('mouseup',()=>{stashPrevComponentName(),switchToPrevComponent();}),document[_0x102882(0x75)](_0x102882(0x199))['addEventListener'](_0x102882(0x1d3),()=>{const _0xc49369=_0x102882;if(!0x0!==allowSwitchingToNextPage)return document['querySelector']('#load-measurements')[_0xc49369(0x1c2)][_0xc49369(0x175)]='darkred',document[_0xc49369(0x75)](_0xc49369(0xa8))['value']=_0xc49369(0x101),void(document[_0xc49369(0x75)](_0xc49369(0x199))['style'][_0xc49369(0x13e)]='darkred');stashNxtComponentName(),switchToNxtComponent();});const animateCaptureBtnColors=document[_0x102882(0x75)](_0x102882(0xa8));function readDataFormValues(){const _0x3c1461=_0x102882,_0x27919b=document[_0x3c1461(0x1ca)](_0x3c1461(0xe0)),_0x281885=document[_0x3c1461(0x1ca)](_0x3c1461(0x14b));let _0xea1e0e=[],_0x1f3be5=[];const _0x4a6192=activeObj[_0x3c1461(0xce)];for(let _0x102b05=0x0;_0x102b05<_0x4a6192;_0x102b05++)_0xea1e0e['push'](_0x27919b[_0x102b05][_0x3c1461(0x1a4)]),_0x1f3be5['push'](_0x281885[_0x102b05]['value']);return{'capturedFeet':_0x1f3be5,'capturedInches':_0xea1e0e};}function normalizeDataPointValuesToInches(){const _0x1f1db2=_0x102882,_0x432f90=readDataFormValues(),_0xad8721=activeObj[_0x1f1db2(0xce)];let _0x5ca2ac=[];for(let _0x88218a=0x0;_0x88218a<_0xad8721;_0x88218a++)_0x5ca2ac[_0x1f1db2(0xc5)](0xc*_0x432f90[_0x1f1db2(0x1ac)][_0x88218a]+0x1*_0x432f90['capturedInches'][_0x88218a]);return _0x5ca2ac;}function saveDataPointInchesToActiveObj(){const _0x3c7cd0=_0x102882,_0x1cfb1=normalizeDataPointValuesToInches(),_0x3109f4=activeObj[_0x3c7cd0(0xce)];for(var _0x519720=0x0;_0x519720<_0x3109f4;_0x519720++)activeObj[_0x3c7cd0(0xea)][_0x519720]=_0x1cfb1[_0x519720];}function buildDataPointObjIntoActiveObj(){const _0x52f232=_0x102882,_0x3b72ee=activeObj[_0x52f232(0xce)];for(var _0x30a37f=0x0;_0x30a37f<_0x3b72ee;_0x30a37f++)activeObj[_0x52f232(0xba)][activeObj[_0x52f232(0x144)][_0x30a37f]]=activeObj[_0x52f232(0xea)][_0x30a37f];console[_0x52f232(0x151)](activeObj[_0x52f232(0xc7)]+'\x20dataPoints',activeObj[_0x52f232(0xba)]);}function vaultDataPointsToLocSto(){const _0x80ee54=_0x102882;if(window[_0x80ee54(0x167)][_0x80ee54(0x96)](''+activeObj['activeObjName'],JSON[_0x80ee54(0x143)](activeObj[_0x80ee54(0xba)])),'barrel'===''+activeObj[_0x80ee54(0xc7)]){console[_0x80ee54(0x151)](_0x80ee54(0xa0));let _0x11d967=rd[_0x80ee54(0xb2)]['dataPoints'][_0x80ee54(0x79)];window[_0x80ee54(0x167)][_0x80ee54(0x96)](_0x80ee54(0x79),JSON[_0x80ee54(0x143)](_0x11d967)),console[_0x80ee54(0x151)]('saved\x20barrelStyle:\x20',_0x11d967);}}function afterDataCapturedBtnStyles(){const _0x1f4e93=_0x102882,_0x3d1fc9=document[_0x1f4e93(0x75)](_0x1f4e93(0xa8));_0x3d1fc9[_0x1f4e93(0x1c2)][_0x1f4e93(0x13e)]='lightgray',_0x3d1fc9[_0x1f4e93(0x1c2)]['color']='darkgreen',_0x3d1fc9[_0x1f4e93(0x1a4)]=_0x1f4e93(0x7b),allowSwitchingToNextPage=!0x0;const _0x2bd16a=document[_0x1f4e93(0x75)](_0x1f4e93(0x199));_0x2bd16a[_0x1f4e93(0x1c2)][_0x1f4e93(0x13e)]=_0x1f4e93(0xbc),_0x2bd16a['style'][_0x1f4e93(0x175)]='darkgreen';}function updateBtnsStyles(){setTimeout(()=>afterDataCapturedBtnStyles(),0xaf);}function saveACompDataToActiveObj(){const _0x6055c3=_0x102882;readDataFormValues(),normalizeDataPointValuesToInches(),saveDataPointInchesToActiveObj(),buildDataPointObjIntoActiveObj(),vaultDataPointsToLocSto(),'misc'===''+activeObj[_0x6055c3(0xc7)]&&bsNumCruncher(),updateBtnsStyles();}animateCaptureBtnColors[_0x102882(0x1c9)]('mousedown',mousedownCaptureBtnAnimation);function _0x2461(){const _0x194392=['getAttribute','gray','spring','sArc','log','functionNameLocked','innerText','Slats:','56AXXJkQ','openEndlocksCount():\x20','rdOutlineHeight','barrelBigYoyo','#component-name-header','10,000','#optimal-spring','thickness','IPPT\x20=\x20(','1457965ciNLST','errorStack:\x20','Torsion\x20Spring:','sqrt','#calc-results','💪\x20Success!\x20Found\x20rO\x20','click','#name-of-component-obj','openHangingSlatCount():\x20','localStorage','Curtain\x20roll\x20too\x20large\x20for\x20available\x20endplate\x20sizes','bottomBar','misc','height','internalDiameter','checked','constDat:\x20','astragalWeight','astragalStyle','minPlateSize','textContent','significantFigures','#previous-page','color','slatLinearInchWeight18G',')\x20-\x20(','closedHangingSlatCount():\x20','Invalid\x20windlock\x20style\x20entry\x204','endPlatePossibleSizes','endlockThicknessInUse','activeObj.objNo','slatAssemblyWidth','indexOf','slatTerminationThickness','slatC_value','selectSpringWireDiameter():\x20','orange','816849tAnGbA','slatStyle','mainTemplate.html','closedWindlocksCount:\x20','bbAssemblyWeight','barrelTube8inchDia','Bottom\x20bar\x20rubber','barrelDiameter','relative','slatWidth():\x20','Virtual\x20Cutout:\x20','slice','zeroTrimmedCore','barrelSpiralRing','startPage','\x20InchPound\x20required\x20is\x20too\x20large\x20for\x20existing\x20wire\x20diameters.','buildCalcDat():\x20','ithTableRow','closedHangingWeight():\x20','nextObjName','datum-labels','.start-rolling-btn','#next-page','oneSlideBoltWeight','requiredInchPound():\x20','length','curvedNylonEndlockThickness','brown','slideboltsWeight','slatC_valueBigYoyoFlatSlat','parse','location','inline-block','value','objNo','hasAnE','bbAnglesAmount','\x20Weight','bbStopDistanceBelowEndPlate','openHangingHeight():\x20','url(slats.jpg)','capturedFeet','#spring-on-hand','1\x20ea',')\x20/\x20','scriptVersion','oneSlatWeight():\x20','slats','astragalWeight():\x20','compressedVsUncompressedDifferential','astragalLinearInchWeight','closedWindlocksWeight','fractionalPart','UNKNOWN\x20ERROR','closedHangingHeight','numericPart','3050876RlOmJJ','springDataSetToUse','includes','First\x20run\x20pairing\x20procedure\x20completed.','MY\x20WHOLE\x20APP\x20CALC\x27d\x20SPECS:\x20','slatC_valueBigYoyoCurvedSlat','rd.rdOutline.dataPoints.height','style','bsResultTemplate.html','startingEndplateSize','☹️\x20Excessive\x20algorithm\x20iterations.','******','380HTafix','Invalid\x20windlock\x20style\x20entry\x206','addEventListener','querySelectorAll','closedHangingSlatCount','retrievedBarrelStyle','--feet-view-style','fineTunner\x20goal:\x20','getElementsByClassName','oneWindlockWeight','#password','Barrel\x20Style','mouseup','slideBoltsWeight():\x20','selectedWireColor','Invalid\x20slat\x20style\x20entry','amountOfCompressedSlats:\x20','windlockThicknessInUse','url(misc.jpg)','\x20,\x20For\x20hTestValue\x20','minPlateSize:\x20','#inches-b','red','Invalid\x20endock\x20style\x20entry\x204','flatSlatVerticalContributionUncompressed','Windlock\x20Style','springProps','Script\x20Version:\x20','querySelector','errorStack','width','approximateHGoal','barrelStyle','449724ALeTRr','DATA\x20WAS\x20CAPTURED','deltaTheta','templateId\x20is:\x20','useSlidebolts','flatSlatVerticalContributionCompressed','changeCycles.html','setAttribute','Invalid\x20endlock\x20style\x20entry\x202','openHangingSlatCount','inches-value','closedHangingHeight():\x20','curvedStampedEndlockThickness','slatVerticalContributionUncompressed','noWindlockUnitWeight','highCarbSteelSpecificWeight','round','slatC_value4inchTubeCurvedSlat','hardwareSerialNum:\x20','Barrel:','.ssc-cycles','url(startPage.jpg)','Angle\x20Height','Invalid\x20slat\x20style','sigma','#template-id','828018Zaqvjz','slatLinearInchWeight','setItem','darkblue','closedEndlocksCount','Slat\x20Gauge','requiredInchPound','nxtCompNamePassedOnByPrevCompPage','degr','constDat.startingEndplateSize','224085KmFBfC','none','Saving\x20barrelStyle\x20to\x20localStorage...\x20done!','setProperty',',\x20and\x20exactHGoal\x20','Amount\x20of\x20Springs','lightgreen','pageName\x20is:\x20','slatC_valueRimFlatSlat','outlineLRThickness','#load-measurements','#4f0f0f','Excessive\x20algorithm\x20iterations.','castironCurved1WindlockWeight','--component-sketch','rdClosedWeight','mousedown','anglesA_Thickness','slatOverlapWithWallIntMount','slatC_valueRimCurvedSlat','barrel','The\x20','ftView','darkgreen','Invalid\x20astragal\x20style','minimumInternalRollToHoodClearance','bbAngleVerticalSide','class','dataPoints',',\x20\x20Script\x20Version:\x20','lightgray','Brown\x20Wire,\x20Qty.\x20','slatAssemblyWidth():\x20','closedWindlocksCount','stampedFlat1WindlockWeight','#sketch-of-active-component','exactHGoal():\x20','adjDueToCompressedAndWrappedSlats','springLength','push','getItem','activeObjName','endlockStyle','curvedCastironWindlockThickness','flatStampedEndlockUnitWeight','#inches-d','54720aGfbXX','Wire\x20Diameter,\x20Qty.\x20','noOfDataPoints','stepsProgression:\x20','gold','RD\x20Outline:','curvedCastironEndlockUnitWeight','doNotUseSlidebolts','magenta','Invalid\x20windlock\x20style\x20entry\x205','theta','slatC_value6inchTubeFlatSlat','Inches\x20Inside','Endlocks\x20Style','oneEndlockWeight','Invalid\x20slat\x20gauge\x20entry',':root','domInchesPlaceholders','labels','hardwareSerialNum','.inches-value','amountOfCoils','openHangingWeight','gauge','curvedCastironEndlockThickness','approximateHGoal:\x20','\x20Length','springLength():\x20','Invalid\x20barrel\x20style','exactEndplateSize','datumValues','result','placeholder','misc2','\x20and\x20dR\x20','#inches-c','Either,\x20invalid\x20slat\x20or\x20barrel\x20style','lowMomentArm():\x20','slideBoltsStyle','intDia','url(result.jpg)','flatCastironEndlockUnitWeight','closedHangingWeight','adjDueToCompressedAndWrappedSlats)()\x20function\x20values:\x20','curvedStampedWindlockThickness','intertrackGap','0\x20inches','Suggested\x20endplate\x20size:\x20','slatVerticalContributionCompressed','changeWire.html','lowCarbSteelSpecificWeight:\x20','concat','\x20No\x20Wire','CAPTURE\x20REQUIRED','lowMomentArm','bbBeyondWallCutoutHeight','bbAngleThickness','calcDat.slatVerticalContributionUncompressed','slatC_valueSmallYoyoCurvedSlat','slatC_valueSmallYoyoFlatSlat','HUSTON,\x20WE\x20HAVE\x20A\x20PROBLEM!','noEndlockUnitWeight','1134fEiylr','amountOfSprings',',\x20for\x20exactEndplateSize\x20','closedWindlocksWeight:\x20','openHangingHeight','openEndlocksCount','feet-value','dRProgress:\x20','oneSlatWeight','black','url(bottomBar.jpg)','⚠️\x20','flatNylonEndlockUnitWeight','stepNum','barrelTube4inchDia','\x20Internal\x20Diameter','toString','slatC_value8inchTubeCurvedSlat','slatC_value8inchTubeFlatSlat','pairScriptToPC','noEndlockThickness','calcDat.softwareSerialNumber:\x20','darkred','#datum-a','\x20\x20\x20\x20👀','Qty\x200','Invalid\x20endlock\x20style\x20entry\x206','curvedStampedEndlockUnitWeight','6rem','springWeight','endplateWallEdgeToTrackMiddle','rdOutline','hasADot','curvedSlatVerticalContributionCompressed','slatLinearInchWeight22G','onload','exactHGoal','bbAssemblyWeight():\x20','#inches-e','ippt','blue','lowCarbSteelSpecificWeight','Width','slatC_value6inchTubeCurvedSlat','innerHTML','slatWidth',',\x20rO:\x20','Height','W\x20X\x20','slatLinearInchWeight20G','bbAngleHorizontalSide','ftPresets','backgroundColor','#inches-a','softwareSerialNumber','resultTemplate.html','Angles\x20Qty.','stringify','datumKeys','curvedNylonEndlockUnitWeight','white','barrelTube6inchDia','windlockStyle','getElementsByTagName','\x20Wire\x20Diameter','.feet-value','selectedWireDiam'];_0x2461=function(){return _0x194392;};return _0x2461();}const captureDataBtn=document[_0x102882(0x75)](_0x102882(0xa8));captureDataBtn['addEventListener']('mouseup',function(){saveACompDataToActiveObj();});var xtract={'functionNameLocked':!0x1,'numericPart':function(_0x3c331b){const _0x1a4ba1=_0x102882;let _0x6350af,_0x18a1b5;if(this[_0x1a4ba1(0x152)]=!0x0,_0x6350af='-'===_0x3c331b[_0x1a4ba1(0x18e)](0x0,0x1)||'+'===_0x3c331b[_0x1a4ba1(0x18e)](0x0,0x1)?_0x3c331b[_0x1a4ba1(0x18e)](0x1):_0x3c331b[_0x1a4ba1(0x18e)](0x0),this[_0x1a4ba1(0x1a6)](_0x3c331b)){const _0x109f1d=(_0x18a1b5=_0x6350af)[_0x1a4ba1(0x17e)]('e'),_0x510d7=_0x18a1b5[_0x1a4ba1(0x18e)](0x0,_0x109f1d);return this['functionNameLocked']=!0x1,_0x510d7;}const _0x178c13=_0x6350af;return this[_0x1a4ba1(0x152)]=!0x1,_0x178c13;},'integerPart':function(_0x286ae0){const _0x498f73=_0x102882,_0x2d0eb3=this[_0x498f73(0x1ba)](_0x286ae0);if(this[_0x498f73(0x12a)](_0x286ae0)){const _0x585322=_0x2d0eb3[_0x498f73(0x17e)]('.');return _0x2d0eb3[_0x498f73(0x18e)](0x0,_0x585322);}return _0x2d0eb3;},'hasAnE':function(_0x5494dc){const _0x19d504=_0x102882;if(this['functionNameLocked']=!0x0,_0x5494dc[_0x19d504(0x1bd)]('e')){const _0x168cb7=!0x0;return this[_0x19d504(0x152)]=!0x1,_0x168cb7;}return this[_0x19d504(0x152)]=!0x1,!0x1;},'hasADot':function(_0x5645c1){const _0x2d3488=_0x102882;if(_0x5645c1[_0x2d3488(0x1bd)]('.'))return!0x0;return!0x1;},'sigFiguresCount':function(_0x1bbcda){const _0xade56=_0x102882;this[_0xade56(0x152)]=!0x0;const _0x42a797=this[_0xade56(0x173)](_0x1bbcda)[_0xade56(0x19c)];return this[_0xade56(0x152)]=!0x1,_0x42a797;},'significantFigures':function(_0x268cfb){const _0x5244dc=_0x102882;this['functionNameLocked']=!0x0;const _0xa45706=this[_0x5244dc(0x1ba)](_0x268cfb);if(0x1*_0xa45706==0x0&&_0xa45706[_0x5244dc(0x1bd)]('.')){const _0x3df518='0'+this[_0x5244dc(0x1b7)](_0x268cfb);return this[_0x5244dc(0x152)]=!0x1,_0x3df518;}if(0x1*_0xa45706==0x0&&!_0xa45706[_0x5244dc(0x1bd)]('.')){const _0x245487='0';return this['functionNameLocked']=!0x1,_0x245487;}if('.'===_0xa45706[_0x5244dc(0x18e)](0x0,0x1)){const _0x242a66='0'+this['fractionalPart'](_0x268cfb);return this['functionNameLocked']=!0x1,_0x242a66;}this[_0x5244dc(0x152)]=!0x0;let _0x2d7f7c=this['zeroTrimmedCore'](_0x268cfb);if(this['functionNameLocked']=!0x1,_0x2d7f7c['includes']('.')){const _0x13fb93=_0x2d7f7c[_0x5244dc(0x17e)]('.'),_0x211d2f=_0x2d7f7c[_0x5244dc(0x18e)](0x0,_0x13fb93)+_0x2d7f7c[_0x5244dc(0x18e)](0x1+_0x13fb93);return this[_0x5244dc(0x152)]=!0x1,_0x211d2f;}const _0x444820=this[_0x5244dc(0x18f)](_0x268cfb);return this[_0x5244dc(0x152)]=!0x1,_0x444820;},'zeroTrimmedCore':function(_0x45728a){const _0x57d6f3=_0x102882;if(this[_0x57d6f3(0x152)]=!0x0,0x1*_0x45728a==0x0&&this[_0x57d6f3(0x12a)]()){const _0x101d83='.';return this['functionNameLocked']=!0x1,_0x101d83;}if(0x1*_0x45728a==0x0&&!this['hasADot'](_0x45728a)){const _0x5bb044='';return this[_0x57d6f3(0x152)]=!0x1,_0x5bb044;}let _0x51450a=this['numericPart'](_0x45728a);if('.'===_0x51450a[_0x57d6f3(0x18e)](0x0,0x1)){const _0x39f871=(_0x51450a=(0x1*_0x51450a)['toString']())['slice'](0x0);return this[_0x57d6f3(0x152)]=!0x1,_0x39f871;}if('.'===_0x51450a[_0x57d6f3(0x18e)](-0x1)){const _0x17e88f=(_0x51450a=(0x1*_0x51450a)[_0x57d6f3(0x11a)]())[_0x57d6f3(0xff)]('.');return this['functionNameLocked']=!0x1,_0x17e88f;}const _0x33aa56=(0x1*_0x51450a)[_0x57d6f3(0x11a)]();return this[_0x57d6f3(0x152)]=!0x1,_0x33aa56;}};function styleCaptureBtnAsCalcBtn(){const _0x2c901a=_0x102882;document['querySelector'](_0x2c901a(0x162))[_0x2c901a(0x1c2)][_0x2c901a(0x13e)]='lightgray',document[_0x2c901a(0x75)](_0x2c901a(0x162))[_0x2c901a(0x1c2)]['color']=_0x2c901a(0x97);}function mousedownCalcBtnAnimation(){const _0x1e22cf=_0x102882;document[_0x1e22cf(0x75)]('#calc-results')['style'][_0x1e22cf(0x13e)]=_0x1e22cf(0x113),document['querySelector'](_0x1e22cf(0x162))['style'][_0x1e22cf(0x175)]=_0x1e22cf(0x146);}function updRdWithVaultedDataPoints(){const _0x279221=_0x102882;rd[_0x279221(0x129)][_0x279221(0xba)]=JSON[_0x279221(0x1a1)](window[_0x279221(0x167)][_0x279221(0xc6)](_0x279221(0x129))),rd['barrel'][_0x279221(0xba)]=JSON[_0x279221(0x1a1)](window['localStorage'][_0x279221(0xc6)](_0x279221(0xb2))),rd['slats'][_0x279221(0xba)]=JSON[_0x279221(0x1a1)](window[_0x279221(0x167)]['getItem'](_0x279221(0x1b2))),rd['bottomBar'][_0x279221(0xba)]=JSON[_0x279221(0x1a1)](window['localStorage'][_0x279221(0xc6)](_0x279221(0x169))),rd['spring']['dataPoints']=JSON[_0x279221(0x1a1)](window[_0x279221(0x167)]['getItem'](_0x279221(0x14f))),rd[_0x279221(0x16a)][_0x279221(0xba)]=JSON[_0x279221(0x1a1)](window[_0x279221(0x167)][_0x279221(0xc6)](_0x279221(0x16a))),console['log']('@@@@\x20Updated\x20RD\x20Obj:\x20@@@@',{'rd':rd});}document[_0x102882(0x75)]('#calc-results')[_0x102882(0x1c9)](_0x102882(0xae),()=>{blockMultipleCalcResults||mousedownCalcBtnAnimation();});const constDat={'scriptVersion':'2021.12.17a','startingEndplateSize':0x10,'intertrackGap':0.625,'anglesA_Thickness':0.375,'slatOverlapWithWallBetweenJamb':-8.75,'slatOverlapWithWallIntMount':5.25,'slatOverlapWithWallExtMount':7.25,'noWindlockThickness':0x0,'curvedStampedWindlockThickness':0.25,'curvedCastironWindlockThickness':0.25,'flatStampedWindlockThickness':0.5,'flatCastironWindlockThickness':0.5,'noEndlockThickness':0x0,'curvedNylonEndlockThickness':0.3125,'curvedStampedEndlockThickness':0.46875,'curvedCastironEndlockThickness':0.25,'flatNylonEndlockThickness':0.3125,'flatStampedEndlockThickness':0.5,'flatCastironEndlockThickness':0.5,'noEndlockUnitWeight':0x0,'curvedNylonEndlockUnitWeight':0.04,'curvedStampedEndlockUnitWeight':0.18,'curvedCastironEndlockUnitWeight':0.16,'flatNylonEndlockUnitWeight':0.05,'flatStampedEndlockUnitWeight':0.1406,'flatCastironEndlockUnitWeight':0.213,'slatsBetweenWindlocks':0x5,'noWindlockUnitWeight':0x0,'stampedCurved1WindlockWeight':0.213,'castironCurved1WindlockWeight':0.213,'stampedFlat1WindlockWeight':0.213,'castironFlat1WindlockWeight':0.3,'slatLinearInchWeight24G':0.042285,'slatLinearInchWeight22G':0.048325,'slatLinearInchWeight20G':0.057386,'slatLinearInchWeight18G':0.075508,'bbStopDistanceBelowEndPlate':1.5,'endplateWallEdgeToTrackMiddle':0x2,'barrelTube4inchDia':4.5,'barrelTube6inchDia':6.5,'barrelSmallYoyo':6.7,'barrelSpiralRing':7.75,'barrelBigYoyo':8.1875,'barrelTube8inchDia':8.625,'slatC_value4inchTubeCurvedSlat':0.5357,'slatC_value6inchTubeCurvedSlat':0.5455,'slatC_valueSmallYoyoCurvedSlat':0.5455,'slatC_valueRimCurvedSlat':0.5455,'slatC_valueBigYoyoCurvedSlat':0.5417,'slatC_value8inchTubeCurvedSlat':0.5455,'slatC_value4inchTubeFlatSlat':0.5714,'slatC_value6inchTubeFlatSlat':0.75,'slatC_valueSmallYoyoFlatSlat':0.75,'slatC_valueRimFlatSlat':0.7,'slatC_valueBigYoyoFlatSlat':0.5455,'slatC_value8inchTubeFlatSlat':0.5455,'curvedSlatVerticalContributionCompressed':2.75,'curvedSlatVerticalContributionUncompressed':2.9,'flatSlatVerticalContributionCompressed':2.6,'flatSlatVerticalContributionUncompressed':2.6,'noAstragalInchLinearWeight':0x0,'vinylAstragalLinearInchWeight':0.02083,'rubberAstragalLinearInchWeight':0.0231,'doNotUseSlidebolts':0x0,'useSlidebolts':2.5,'lowCarbSteelSpecificWeight':0.2836,'highCarbSteelSpecificWeight':0.284,'bbBeyondWallCutoutHeight':0.5,'bbStopFlagStyleVerticalToll':0x0,'bbStopFlatBarStyleVerticalToll':1.5,'minimumInternalRollToHoodClearance':0.75,'endPlatePossibleSizes':[0xd,0xe,0xf,0x10,0x11,0x12,0x13,0x14]},calcDat={'slatOverlapWithWall':0x0,'endlockThicknessInUse':0x0,'windlockThicknessInUse':0x0,'slatTerminationThickness':0x0,'slatLinearInchWeight':0x0,'lowCarbSteelSpecificWeight':0x0,'barrelDiameter':0x0,'showBsResultPage':!0x1,'slatC_value':0x0,'slatVerticalContributionUncompressed':0x0,'slatVerticalContributionCompressed':0x0,'oneEndlockWeight':0x0,'oneWindlockWeight':0x0,'oneSlideBoltWeight':0x0,'astragalLinearInchWeight':0x0,'slatAssemblyWidth':0x0,'slatWidth':0x0,'amountOfSprings':0x0,'oneSlatWeight':0x0,'closedHangingHeight':0x0,'closedHangingSlatCount':0x0,'closedEndlocksCount':0x0,'closedWindlocksCount':0x0,'bbAnglesWeight':0x0,'astragalWeight':0x0,'slideboltsWeight':0x0,'bbAssemblyWeight':0x0,'closedWindlocksWeight':0x0,'closedHangingWeight':0x0,'lowMomentArm':0x0,'requiredInchPound':0x0,'adjDueToCompressedAndWrappedSlats':0x0,'approximateHGoal':0x0,'exactEndplateSize':0x0,'exactHGoal':0x0,'rO':0x0,'dR':0x0,'springDataSetToUse':null,'selectedWireDiam':0x0,'selectedWireColor':'','openHangingHeight':0x0,'openHangingSlatCount':0x0,'openEndlocksCount':0x0,'openHangingWeight':0x0,'ippt':0x0,'springLength':0x0,'amountOfCoils':0x0,'internalDiameter':0x0,'springWeight':0x0};let errorStack=[];function numCruncherError(_0x59148d='ERROR!\x20WRONG\x20DATA\x20ENTERED\x20ON\x20AN\x20INPUT\x20FORM!!'){errorStack['push'](_0x59148d);}function buildCalcDat1(){const _0x42100d=_0x102882;calcDat['internalDiameter']=rd[_0x42100d(0x14f)][_0x42100d(0xba)]['intDia'],calcDat['amountOfSprings']=rd[_0x42100d(0x14f)][_0x42100d(0xba)][_0x42100d(0x10b)],console[_0x42100d(0x151)]('amountOfSprings:\x20',calcDat['amountOfSprings']);}function buildCalcDat2(){const _0x19addf=_0x102882;calcDat[_0x19addf(0xa7)]=constDat[_0x19addf(0xf9)]+constDat[_0x19addf(0xaf)],0x0===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0x17b)]=constDat[_0x19addf(0x11e)]:0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]?0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0x17b)]=constDat[_0x19addf(0x19d)]:0x2===rd['misc'][_0x19addf(0xba)]['endlockStyle']?calcDat[_0x19addf(0x17b)]=constDat[_0x19addf(0x86)]:0x3===rd[_0x19addf(0x16a)][_0x19addf(0xba)]['endlockStyle']?calcDat['endlockThicknessInUse']=constDat[_0x19addf(0xe4)]:numCruncherError(_0x19addf(0x82)):0x2===rd['slats'][_0x19addf(0xba)][_0x19addf(0x184)]?0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0x17b)]=constDat['flatNylonEndlockThickness']:0x2===rd[_0x19addf(0x16a)][_0x19addf(0xba)]['endlockStyle']?calcDat[_0x19addf(0x17b)]=constDat['flatStampedEndndlockThickness']:0x3===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0x17b)]=constDat['flatCastironEndlockThickness']:numCruncherError('Invalid\x20endlock\x20style\x20entry\x204'):numCruncherError(_0x19addf(0x1d6)),0x0===rd['misc'][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d8)]=constDat['noWindlockThickness']:0x1===rd['slats']['dataPoints'][_0x19addf(0x184)]?0x1===rd[_0x19addf(0x16a)]['dataPoints'][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d8)]=constDat[_0x19addf(0xf8)]:0x2===rd[_0x19addf(0x16a)][_0x19addf(0xba)]['windlockStyle']?calcDat[_0x19addf(0x1d8)]=constDat[_0x19addf(0xc9)]:numCruncherError('Invalid\x20windlock\x20style\x20entry\x202'):0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['slatStyle']?0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d8)]=constDat['flatStampedWindlockThickness']:0x2===rd['misc'][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d8)]=constDat['flatCastironWindlockThickness']:numCruncherError(_0x19addf(0x179)):numCruncherError(_0x19addf(0x1d6)),calcDat['windlockThicknessInUse']>=calcDat[_0x19addf(0x17b)]?calcDat[_0x19addf(0x17f)]=calcDat[_0x19addf(0x1d8)]:calcDat['slatTerminationThickness']=calcDat[_0x19addf(0x17b)],0x1===rd['slats'][_0x19addf(0xba)][_0x19addf(0x184)]?0x0===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat['noEndlockUnitWeight']:0x1===rd[_0x19addf(0x16a)]['dataPoints'][_0x19addf(0xc8)]?calcDat['oneEndlockWeight']=constDat[_0x19addf(0x145)]:0x2===rd['misc'][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat[_0x19addf(0x125)]:0x3===rd['misc'][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat['oneEndlockWeight']=constDat[_0x19addf(0xd2)]:numCruncherError(_0x19addf(0x124)):0x2===rd[_0x19addf(0x1b2)]['dataPoints'][_0x19addf(0x184)]?0x0===rd['misc'][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat[_0x19addf(0x109)]:0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat[_0x19addf(0x116)]:0x2===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat[_0x19addf(0xca)]:0x3===rd[_0x19addf(0x16a)]['dataPoints'][_0x19addf(0xc8)]?calcDat[_0x19addf(0xda)]=constDat[_0x19addf(0xf5)]:numCruncherError(_0x19addf(0x70)):numCruncherError(_0x19addf(0x1d6)),0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]?0x0===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d0)]=constDat[_0x19addf(0x88)]:0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d0)]=constDat['stampedCurved1WindlockWeight']:0x2===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat[_0x19addf(0x1d0)]=constDat[_0x19addf(0xab)]:numCruncherError(_0x19addf(0xd5)):0x2===rd[_0x19addf(0x1b2)]['dataPoints']['slatStyle']?0x0===rd[_0x19addf(0x16a)]['dataPoints'][_0x19addf(0x148)]?calcDat['oneWindlockWeight']=constDat[_0x19addf(0x88)]:0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0x148)]?calcDat['oneWindlockWeight']=constDat[_0x19addf(0xc0)]:0x2===rd[_0x19addf(0x16a)][_0x19addf(0xba)]['windlockStyle']?calcDat[_0x19addf(0x1d0)]=constDat['castironFlat1WindlockWeight']:numCruncherError(_0x19addf(0x1c8)):numCruncherError(_0x19addf(0x1d6)),0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['thickness']?calcDat[_0x19addf(0x95)]=constDat['slatLinearInchWeight24G']:0x2===rd['slats']['dataPoints'][_0x19addf(0x15c)]?calcDat[_0x19addf(0x95)]=constDat[_0x19addf(0x12c)]:0x3===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['thickness']?calcDat[_0x19addf(0x95)]=constDat[_0x19addf(0x13b)]:0x4===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x15c)]?calcDat[_0x19addf(0x95)]=constDat[_0x19addf(0x176)]:numCruncherError(_0x19addf(0xdb)),0x1===rd[_0x19addf(0xb2)][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat[_0x19addf(0x18a)]=constDat[_0x19addf(0x118)]:0x2===rd['barrel'][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat[_0x19addf(0x18a)]=constDat[_0x19addf(0x147)]:0x3===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?numCruncherError('\x20Sorry.\x20Small\x20yoyo\x20not\x20supported\x20for\x20this\x20software\x20version.'):0x4===rd[_0x19addf(0xb2)][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat[_0x19addf(0x18a)]=constDat[_0x19addf(0x190)]:0x5===rd['barrel'][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat['barrelDiameter']=constDat[_0x19addf(0x158)]:0x6===rd['barrel']['dataPoints'][_0x19addf(0x79)]?calcDat['barrelDiameter']=constDat[_0x19addf(0x188)]:numCruncherError(_0x19addf(0xe8)),0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]&&0x1===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x8b)]:0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['slatStyle']&&0x2===rd['barrel'][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x135)]:0x1===rd['slats'][_0x19addf(0xba)][_0x19addf(0x184)]&&0x3===rd[_0x19addf(0xb2)]['dataPoints'][_0x19addf(0x79)]?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x106)]:0x1===rd['slats'][_0x19addf(0xba)]['slatStyle']&&0x4===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0xb1)]:0x1===rd['slats'][_0x19addf(0xba)]['slatStyle']&&0x5===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x1c0)]:0x1===rd['slats'][_0x19addf(0xba)][_0x19addf(0x184)]&&0x6===rd['barrel']['dataPoints']['barrelStyle']?calcDat['slatC_value']=constDat[_0x19addf(0x11b)]:0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['slatStyle']&&0x1===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?calcDat[_0x19addf(0x180)]=constDat['slatC_value4inchTubeFlatSlat']:0x2===rd['slats'][_0x19addf(0xba)]['slatStyle']&&0x2===rd[_0x19addf(0xb2)]['dataPoints'][_0x19addf(0x79)]?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0xd7)]:0x2===rd['slats'][_0x19addf(0xba)]['slatStyle']&&0x3===rd[_0x19addf(0xb2)][_0x19addf(0xba)]['barrelStyle']?calcDat['slatC_value']=constDat[_0x19addf(0x107)]:0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]&&0x4===rd[_0x19addf(0xb2)][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat['slatC_value']=constDat[_0x19addf(0xa6)]:0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]&&0x5===rd[_0x19addf(0xb2)][_0x19addf(0xba)][_0x19addf(0x79)]?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x1a0)]:0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]&&0x6===rd['barrel']['dataPoints'][_0x19addf(0x79)]?calcDat[_0x19addf(0x180)]=constDat[_0x19addf(0x11c)]:numCruncherError(_0x19addf(0xf0)),0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)]['slatStyle']?calcDat[_0x19addf(0x87)]=constDat['curvedSlatVerticalContributionUncompressed']:0x2===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]?calcDat[_0x19addf(0x87)]=constDat[_0x19addf(0x71)]:numCruncherError(_0x19addf(0x91)),0x1===rd[_0x19addf(0x1b2)][_0x19addf(0xba)][_0x19addf(0x184)]?calcDat[_0x19addf(0xfc)]=constDat[_0x19addf(0x12b)]:0x2===rd[_0x19addf(0x1b2)]['dataPoints'][_0x19addf(0x184)]?calcDat['slatVerticalContributionCompressed']=constDat[_0x19addf(0x7f)]:numCruncherError(_0x19addf(0x91)),0x0===rd['misc'][_0x19addf(0xba)][_0x19addf(0x170)]?calcDat['astragalLinearInchWeight']=constDat['noAstragalInchLinearWeight']:0x1===rd['misc'][_0x19addf(0xba)]['astragalStyle']?calcDat['astragalLinearInchWeight']=constDat['vinylAstragalLinearInchWeight']:0x2===rd['misc'][_0x19addf(0xba)][_0x19addf(0x170)]?calcDat['astragalLinearInchWeight']=constDat['rubberAstragalLinearInchWeight']:numCruncherError(_0x19addf(0xb6)),0x0===rd[_0x19addf(0x16a)][_0x19addf(0xba)][_0x19addf(0xf2)]?calcDat[_0x19addf(0x19a)]=constDat[_0x19addf(0xd3)]:0x1===rd[_0x19addf(0x16a)][_0x19addf(0xba)]['slideBoltsStyle']?calcDat[_0x19addf(0x19a)]=constDat[_0x19addf(0x7e)]:numCruncherError('Invalid\x20slidebolts\x20style'),console[_0x19addf(0x151)]('startingEndplateSize:\x20',constDat[_0x19addf(0x1c4)]),calcDat[_0x19addf(0x78)]=rd[_0x19addf(0x129)][_0x19addf(0xba)]['height']-constDat[_0x19addf(0x1c4)]-constDat['bbStopDistanceBelowEndPlate'],console[_0x19addf(0x151)](_0x19addf(0xe5),calcDat['approximateHGoal']),calcDat['lowCarbSteelSpecificWeight']=constDat[_0x19addf(0x133)],console[_0x19addf(0x151)](_0x19addf(0xfe),calcDat[_0x19addf(0x133)]),console['log'](_0x19addf(0x16e),{'constDat':constDat}),console['log'](_0x19addf(0x193),{'calcDat':calcDat}),console[_0x19addf(0x151)](_0x19addf(0x15f),{'errorStack':errorStack});}function adjDueToCompressedAndWrappedSlats(){const _0x1afd08=_0x102882,_0x31ddd8=0.66*(rd['rdOutline'][_0x1afd08(0xba)]['height']-0.5*constDat['startingEndplateSize'])/calcDat[_0x1afd08(0x87)];console[_0x1afd08(0x151)](_0x1afd08(0x1c1),rd['rdOutline'][_0x1afd08(0xba)][_0x1afd08(0x16b)],_0x1afd08(0x9d),constDat[_0x1afd08(0x1c4)],_0x1afd08(0x105),calcDat[_0x1afd08(0x87)]);const _0x1b6939=_0x31ddd8*(calcDat[_0x1afd08(0x87)]-calcDat[_0x1afd08(0xfc)]),_0x4a68c5=0.5*Math['PI']*(calcDat[_0x1afd08(0x18a)]+calcDat['slatC_value']),_0x5da477=_0x1b6939+_0x4a68c5;calcDat[_0x1afd08(0xc3)]=_0x5da477,console['log'](_0x1afd08(0xf7),_0x1afd08(0x1d7),_0x31ddd8,_0x1afd08(0x1b4),_0x1b6939,'lengthOfSlatsWrappedOnTopOfBarrel',_0x4a68c5,'calcDat.adjDueToCompressedAndWrappedSlats',calcDat[_0x1afd08(0xc3)]);}function accountForAmountOfSprings(){const _0x37a2da=_0x102882;if(0x0===errorStack['length']){const _0xafba54=calcDat['amountOfSprings'];calcDat[_0x37a2da(0x95)]=calcDat[_0x37a2da(0x95)]/_0xafba54,calcDat[_0x37a2da(0xda)]=calcDat[_0x37a2da(0xda)]/_0xafba54,calcDat['oneWindlockWeight']=calcDat[_0x37a2da(0x1d0)]/_0xafba54,calcDat[_0x37a2da(0x133)]=calcDat[_0x37a2da(0x133)]/_0xafba54,calcDat[_0x37a2da(0x19a)]=calcDat[_0x37a2da(0x19a)]/_0xafba54,calcDat[_0x37a2da(0x1b5)]=calcDat[_0x37a2da(0x1b5)]/_0xafba54;}}function slatAssemblyWidth(){const _0x1842ba=_0x102882,_0x36e965=rd['rdOutline'][_0x1842ba(0xba)][_0x1842ba(0x77)]-calcDat[_0x1842ba(0xa7)];return calcDat[_0x1842ba(0x17d)]=_0x36e965,console[_0x1842ba(0x151)](_0x1842ba(0xbe),{'assembledSlatWidth':_0x36e965}),_0x36e965;}function slatWidth(){const _0x387e82=_0x102882,_0x493f8e=calcDat[_0x387e82(0x17d)]-0x2*calcDat[_0x387e82(0x17f)];return calcDat['slatWidth']=_0x493f8e,console[_0x387e82(0x151)](_0x387e82(0x18c),{'widthOfSlat':_0x493f8e}),_0x493f8e;}function oneSlatWeight(){const _0x58cf4f=_0x102882,_0x4fac3c=calcDat['slatLinearInchWeight']*calcDat['slatWidth'];return calcDat['oneSlatWeight']=_0x4fac3c,console[_0x58cf4f(0x151)](_0x58cf4f(0x1b1),{'oneSlatPounds':_0x4fac3c}),_0x4fac3c;}const nthTableRow={'stepNum':0x0,'theta':0x0,'sigma':0x0,'rO':0x0,'deltaTheta':0x0,'sArc':0x0,'degr':0x0,'dR':0x0,'h':0x0};let theta,sigma,rO,deltaTheta,sArc,degr,dR,h,stepNum=-0x1;const stepsProgression=[];function rotate1Increment(){const _0x505ac5=_0x102882;-0x1===stepNum?(stepNum=0x0,nthTableRow[_0x505ac5(0x117)]=stepNum):nthTableRow[_0x505ac5(0x117)]++,stepsProgression[_0x505ac5(0xc5)](nthTableRow[_0x505ac5(0x117)]);}const bbTravelProgress=[];function buildNthRowOfLukUpTable(_0x3a5b51=nthTableRow[_0x102882(0x117)]){const _0x5b07b9=_0x102882,_0x3f9bbf=calcDat[_0x5b07b9(0x18a)]/0x2,_0x3e95e4=calcDat[_0x5b07b9(0x180)]/(0x2*Math['PI']),_0x5600f5=(0x2*_0x3f9bbf+calcDat[_0x5b07b9(0x180)])*Math['PI']/calcDat[_0x5b07b9(0x180)],_0x20a475=Math[_0x5b07b9(0x161)](0x1+_0x5600f5*_0x5600f5),_0x4d81c1=_0x3e95e4*(_0x5600f5*_0x20a475+Math[_0x5b07b9(0x151)](_0x5600f5+_0x20a475))/0x2;theta=_0x5600f5+0x5*Math['PI']*_0x3a5b51/0xb4,nthTableRow[_0x5b07b9(0xd6)]=theta,sigma=Math[_0x5b07b9(0x161)](0x1+nthTableRow[_0x5b07b9(0xd6)]*nthTableRow[_0x5b07b9(0xd6)]),nthTableRow[_0x5b07b9(0x92)]=sigma,rO=_0x3e95e4*nthTableRow['theta'],nthTableRow['rO']=rO,deltaTheta=nthTableRow['theta']-_0x5600f5,nthTableRow[_0x5b07b9(0x7c)]=deltaTheta,sArc=_0x3e95e4*(nthTableRow[_0x5b07b9(0xd6)]*nthTableRow[_0x5b07b9(0x92)]+Math['log'](nthTableRow[_0x5b07b9(0xd6)]+nthTableRow[_0x5b07b9(0x92)]))/0x2,nthTableRow['sArc']=sArc,degr=0xb4*nthTableRow['deltaTheta']/Math['PI'],nthTableRow[_0x5b07b9(0x9c)]=degr,dR=nthTableRow[_0x5b07b9(0x7c)]/(0x2*Math['PI']),nthTableRow['dR']=dR,h=nthTableRow[_0x5b07b9(0x150)]-_0x4d81c1,nthTableRow['h']=h;}function fineTunner(_0x3435bb){const _0x8feeb4=_0x102882;console[_0x8feeb4(0x151)](_0x8feeb4(0x1ce),_0x3435bb+calcDat[_0x8feeb4(0xc3)]);for(let _0x419a62=0x0;_0x419a62<bbTravelProgress[_0x8feeb4(0x19c)];_0x419a62++)if(bbTravelProgress[_0x419a62]>_0x3435bb+calcDat['adjDueToCompressedAndWrappedSlats']){const _0x2a0ce4=stepsProgression[_0x419a62];buildNthRowOfLukUpTable(_0x2a0ce4-0x1),console[_0x8feeb4(0x151)](_0x8feeb4(0x194),nthTableRow),calcDat['rO']=nthTableRow['rO'],calcDat['dR']=nthTableRow['dR'],console[_0x8feeb4(0x151)]('💪\x20Success!\x20Found\x20rO\x20'+Math[_0x8feeb4(0x8a)](0x2710*calcDat['rO'])/0x2710+_0x8feeb4(0xee)+Math[_0x8feeb4(0x8a)](0x2710*calcDat['dR'])/0x2710+_0x8feeb4(0x1da)+Math[_0x8feeb4(0x8a)](0x2710*nthTableRow['h'])/0x2710+'\x20iteration\x20'+(_0x2a0ce4-0x1));break;}}const dRProgress=[];function calcRoDrForHgoal(_0x48a274=calcDat['approximateHGoal']){const _0x3a9bfb=_0x102882;for(console[_0x3a9bfb(0x151)]('calcRoDrForHgoal\x20Algorithm\x20bbTravel:\x20',_0x48a274+calcDat[_0x3a9bfb(0xc3)]);nthTableRow[_0x3a9bfb(0x117)]<0x5dc;){rotate1Increment(),buildNthRowOfLukUpTable(),bbTravelProgress[_0x3a9bfb(0xc5)](nthTableRow['h']),dRProgress['push'](nthTableRow['dR']),bbTravelProgress[bbTravelProgress[_0x3a9bfb(0x19c)]];if(nthTableRow['h']>=_0x48a274+calcDat[_0x3a9bfb(0xc3)]){calcDat['rO']=nthTableRow['rO'],calcDat['dR']=nthTableRow['dR'],console[_0x3a9bfb(0x151)](_0x3a9bfb(0x163)+Math['round'](0x2710*calcDat['rO'])/0x2710+'\x20and\x20dR\x20'+Math[_0x3a9bfb(0x8a)](0x2710*calcDat['dR'])/0x2710+_0x3a9bfb(0x1da)+Math[_0x3a9bfb(0x8a)](0x2710*nthTableRow['h'])/0x2710);break;}}nthTableRow['stepNum']>=0x5dc?(numCruncherError(_0x3a9bfb(0xaa)),console[_0x3a9bfb(0x151)](_0x3a9bfb(0x1c5))):(console['log'](_0x3a9bfb(0xcf),stepsProgression),console['log']('bbTravelProgress:\x20',bbTravelProgress),console['log'](_0x3a9bfb(0x111),dRProgress));}function exactEndplateSize(){const _0x2c85f5=_0x102882,_0x5cbe3d=0x2*calcDat['rO'];calcDat[_0x2c85f5(0x171)]=_0x5cbe3d,console[_0x2c85f5(0x151)](_0x2c85f5(0x1db),''+_0x5cbe3d);let _0x54e3e0=!0x1;const _0x17d070=constDat[_0x2c85f5(0x17a)][_0x2c85f5(0x19c)];let _0x2bb414=0x0;for(;_0x2bb414<_0x17d070;_0x2bb414++)if(constDat['endPlatePossibleSizes'][_0x2bb414]>=0x2*constDat[_0x2c85f5(0xb7)]+_0x5cbe3d){calcDat[_0x2c85f5(0xe9)]=constDat[_0x2c85f5(0x17a)][_0x2bb414],_0x54e3e0=!0x0;break;}_0x54e3e0?(window[_0x2c85f5(0x167)][_0x2c85f5(0x96)]('exactEndplateSize',JSON['stringify'](calcDat[_0x2c85f5(0xe9)])),console[_0x2c85f5(0x151)](_0x2c85f5(0xe9),calcDat['exactEndplateSize'])):numCruncherError(_0x2c85f5(0x168));}function exactHGoal(){const _0x44721b=_0x102882,_0x4654dc=rd[_0x44721b(0x129)][_0x44721b(0xba)]['height']-calcDat['exactEndplateSize']-constDat[_0x44721b(0x1a9)];return calcDat[_0x44721b(0x12e)]=_0x4654dc,console[_0x44721b(0x151)](_0x44721b(0xc2),calcDat['exactHGoal']),_0x4654dc;}function openHangingHeight(){const _0x14f9a2=_0x102882,_0x52537c=constDat[_0x14f9a2(0x1a9)]+0.5*calcDat[_0x14f9a2(0xe9)],_0x1018de=0.5*calcDat['exactEndplateSize']-constDat['endplateWallEdgeToTrackMiddle']-calcDat['rO'],_0x317304=_0x52537c*_0x52537c+_0x1018de*_0x1018de,_0x1ffa6f=Math[_0x14f9a2(0x161)](_0x317304);return calcDat[_0x14f9a2(0x10e)]=_0x1ffa6f,console[_0x14f9a2(0x151)](_0x14f9a2(0x1aa)+_0x1ffa6f+_0x14f9a2(0x10c)+calcDat[_0x14f9a2(0xe9)]+_0x14f9a2(0x138)+calcDat['rO']+_0x14f9a2(0xee)+calcDat['dR']),_0x1ffa6f;}function openHangingSlatCount(){const _0x7f4ff5=_0x102882,_0x5f16fd=calcDat[_0x7f4ff5(0x10e)]/calcDat['slatVerticalContributionUncompressed'];return calcDat[_0x7f4ff5(0x83)]=_0x5f16fd,console[_0x7f4ff5(0x151)](_0x7f4ff5(0x166),{'slatCount':_0x5f16fd}),_0x5f16fd;}function openEndlocksCount(){const _0x283dd3=_0x102882;let _0x1807dd,_0x5f461a=Math[_0x283dd3(0x8a)](calcDat[_0x283dd3(0x83)]);return _0x1807dd=_0x5f461a%0x2==0x0?_0x5f461a:_0x5f461a+0x1,calcDat['openEndlocksCount']=_0x1807dd,console['log'](_0x283dd3(0x156),{'endlocksCount':_0x1807dd}),_0x1807dd;}function openHangingWeight(){const _0x41a368=_0x102882,_0x295984=calcDat['openHangingSlatCount']*calcDat[_0x41a368(0x112)]+calcDat[_0x41a368(0x10f)]*calcDat[_0x41a368(0xda)]+calcDat['bbAssemblyWeight'];return calcDat[_0x41a368(0xe2)]=_0x295984,console[_0x41a368(0x151)]('openHangingWeight():\x20',{'hangingWeight':_0x295984}),_0x295984;}function closedHangingHeight(){const _0xaa9e28=_0x102882,_0x43488b=constDat[_0xaa9e28(0x1a9)]+0.5*calcDat['exactEndplateSize'],_0x52620d=0.5*calcDat['exactEndplateSize']-constDat[_0xaa9e28(0x128)]-(calcDat[_0xaa9e28(0x180)]+calcDat[_0xaa9e28(0x18a)])/0x2,_0x19d21c=_0x43488b*_0x43488b+_0x52620d*_0x52620d,_0x38a86a=Math[_0xaa9e28(0x161)](_0x19d21c)+calcDat[_0xaa9e28(0x12e)];return calcDat[_0xaa9e28(0x1b9)]=_0x38a86a,console[_0xaa9e28(0x151)](_0xaa9e28(0x85)+calcDat[_0xaa9e28(0x1b9)]+_0xaa9e28(0x10c)+calcDat[_0xaa9e28(0xe9)]+_0xaa9e28(0xa2)+calcDat[_0xaa9e28(0x12e)]),_0x38a86a;}function closedHangingSlatCount(){const _0x225580=_0x102882,_0x5033f0=calcDat[_0x225580(0x1b9)]/calcDat[_0x225580(0x87)];return calcDat[_0x225580(0x1cb)]=_0x5033f0,console['log'](_0x225580(0x178),{'slatCount':_0x5033f0}),_0x5033f0;}function closedEndlocksCount(){const _0x5529e7=_0x102882;let _0x35f93b,_0x50098d=Math['round'](calcDat[_0x5529e7(0x1cb)]);return _0x35f93b=_0x50098d%0x2==0x0?_0x50098d:_0x50098d+0x1,calcDat[_0x5529e7(0x98)]=_0x35f93b,console['log']('closedEndlocksCount():\x20',{'endlocksCount':_0x35f93b}),_0x35f93b;}function closedWindlocksCount(){const _0x3767c8=_0x102882,_0x257201=0x2*(calcDat[_0x3767c8(0x1cb)]-calcDat['openHangingSlatCount']-0x1)/0x6;console[_0x3767c8(0x151)](_0x3767c8(0x186),{'closedWindlocksCount':_0x257201}),calcDat[_0x3767c8(0xbf)]=_0x257201;}function bbAnglesWeight(){const _0x4d69a6=_0x102882,_0xd58574=(rd['bottomBar']['dataPoints'][_0x4d69a6(0xb8)]*rd[_0x4d69a6(0x169)]['dataPoints']['bbAngleThickness']+(rd[_0x4d69a6(0x169)][_0x4d69a6(0xba)][_0x4d69a6(0x13c)]-rd[_0x4d69a6(0x169)]['dataPoints'][_0x4d69a6(0x104)])*rd[_0x4d69a6(0x169)]['dataPoints'][_0x4d69a6(0x104)])*calcDat[_0x4d69a6(0x137)]*rd[_0x4d69a6(0x169)][_0x4d69a6(0xba)][_0x4d69a6(0x1a7)]*calcDat[_0x4d69a6(0x133)];return calcDat['bbAnglesWeight']=_0xd58574,console[_0x4d69a6(0x151)]('bbAnglesWeight():\x20',{'bbAnglesWeight':_0xd58574}),_0xd58574;}function astragalWeight(){const _0x429f51=_0x102882,_0x5bf55=calcDat[_0x429f51(0x1b5)]*calcDat[_0x429f51(0x137)];return calcDat[_0x429f51(0x16f)]=_0x5bf55,console[_0x429f51(0x151)](_0x429f51(0x1b3),{'astragalWeight':_0x5bf55}),_0x5bf55;}function _0x3808(_0x4848ae,_0x1bd3dd){const _0x24615b=_0x2461();return _0x3808=function(_0x380866,_0x56fef7){_0x380866=_0x380866-0x6f;let _0x18349e=_0x24615b[_0x380866];return _0x18349e;},_0x3808(_0x4848ae,_0x1bd3dd);}function slideboltsWeight(){const _0x3f993f=_0x102882,_0x29b01b=0x2*calcDat[_0x3f993f(0x19a)];return calcDat[_0x3f993f(0x19f)]=_0x29b01b,console[_0x3f993f(0x151)](_0x3f993f(0x1d4),{'slideboltsWeight':_0x29b01b}),_0x29b01b;}function bbAssemblyWeight(){const _0x54a5bc=_0x102882,_0x3c8a76=calcDat['bbAnglesWeight']+calcDat[_0x54a5bc(0x16f)]+calcDat[_0x54a5bc(0x19f)];return calcDat[_0x54a5bc(0x187)]=_0x3c8a76,console['log'](_0x54a5bc(0x12f),{'bbWeight':_0x3c8a76}),_0x3c8a76;}function closedHangingWeight(){const _0x31f31a=_0x102882,_0x2f4488=calcDat[_0x31f31a(0x1cb)]*calcDat[_0x31f31a(0x112)]+calcDat['closedEndlocksCount']*calcDat[_0x31f31a(0xda)]+calcDat[_0x31f31a(0xbf)]*calcDat['oneWindlockWeight']+calcDat[_0x31f31a(0x187)],_0x472462=calcDat['closedWindlocksCount']*calcDat['oneWindlockWeight'];return calcDat[_0x31f31a(0x1b6)]=_0x472462,console['log'](_0x31f31a(0x10d),_0x472462),calcDat['closedHangingWeight']=_0x2f4488,window['localStorage']['setItem'](_0x31f31a(0xad),JSON[_0x31f31a(0x143)](calcDat['closedHangingWeight'])),window['localStorage'][_0x31f31a(0x96)](_0x31f31a(0x157),JSON[_0x31f31a(0x143)](rd[_0x31f31a(0x129)]['dataPoints'][_0x31f31a(0x16b)])),console[_0x31f31a(0x151)](_0x31f31a(0x195),{'hangingWeight':_0x2f4488}),_0x2f4488;}function lowMomentArm(){const _0x26fbbf=_0x102882,_0x2b2494=(calcDat['barrelDiameter']+calcDat[_0x26fbbf(0x180)])/0x2;return calcDat[_0x26fbbf(0x102)]=_0x2b2494,console[_0x26fbbf(0x151)](_0x26fbbf(0xf1),{'lMArm':_0x2b2494}),_0x2b2494;}function requiredInchPound(){const _0x5efd42=_0x102882,_0x29c71c=calcDat[_0x5efd42(0x102)]*calcDat[_0x5efd42(0xf6)];return calcDat[_0x5efd42(0x9a)]=_0x29c71c,console[_0x5efd42(0x151)](_0x5efd42(0x19b),{'closedInchPounds':_0x29c71c}),_0x29c71c;}const optimalMaxInchPound=[[0x34,0.125,null],[0x41,0.135,null],[0x4b,0.142,null],[0x5d,0.1562,null],[0x6b,0.162,null],[0x77,0.17,null],[0x89,0.177,null],[0xa1,0.1875,null],[0xac,0.192,null],[0xd4,0.207,null],[246.8,0.2187,null],[0x10c,0.2253,null],[0x12a,0.2343,null],[0x14e,0.2437,null],[0x166,0.25,null],[410.9,0.2625,null],[0x1ca,0.273,null],[505.9,0.283,null],[536.9,0.289,null],[568.9,0.295,null],[632.9,0.3065,null],[0x29c,0.3125,null],[709.8,0.3195,null],[0x310,0.331,null],[870.9,0.3437,null],[0x3f3,0.3625,null],[1110.8,0.375,null],[1272.9,0.3938,null],[1387.6,0.4062,null],[0x606,0.4218,null],[1632.8,0.4305,null],[1707.6,0.4375,null],[1882.8,0.4531,null],[1981.9,0.4615,null],[2069.3,0.4687,null],[2342.4,0.49,null],[2478.9,0.5,null],[2934.8,0.5312,null],[3442.7,0.5625,null],[0x120c,0.625,null]],inventoryMaxInchPound=[[0x29c,0.312,'yellow'],[870.9,0.343,'brown'],[1110.8,0.375,_0x102882(0x6f)],[1387.6,0.406,_0x102882(0x146)],[0x606,0.421,_0x102882(0xd0)],[1707.6,0.437,_0x102882(0x132)],[2069.3,0.468,_0x102882(0x182)],[2478.9,0.5,_0x102882(0x132)]];function setSpringsBasquetToChooseFrom(){const _0x36112c=_0x102882,_0xa6e4cd=inventoryMaxInchPound,_0x3f895c=optimalMaxInchPound,_0x5f2bc4=document[_0x36112c(0x75)](_0x36112c(0x1ad));return document[_0x36112c(0x75)](_0x36112c(0x15b))[_0x36112c(0x16d)]?_0x3f895c:_0x5f2bc4[_0x36112c(0x16d)]?_0xa6e4cd:void 0x0;}let requiredInchPoundsInRange;function selectSpringWireDiameter(){const _0x5f5df3=_0x102882;let _0x3848bf=!0x1,_0x3048f0=0x0,_0x5ac172='';calcDat['springDataSetToUse']=setSpringsBasquetToChooseFrom();for(let _0x2f9371=0x0;_0x2f9371<calcDat[_0x5f5df3(0x1bc)][_0x5f5df3(0x19c)]&&(calcDat[_0x5f5df3(0x1bc)][_0x2f9371][0x0]>=calcDat[_0x5f5df3(0x9a)]&&(_0x3048f0=calcDat[_0x5f5df3(0x1bc)][_0x2f9371][0x1],_0x5ac172=calcDat[_0x5f5df3(0x1bc)][_0x2f9371][0x2],_0x3848bf=!0x0),!_0x3848bf);_0x2f9371++);return!0x1===_0x3848bf?(numCruncherError(_0x5f5df3(0xb3)+Math[_0x5f5df3(0x8a)](calcDat[_0x5f5df3(0x9a)])+_0x5f5df3(0x192)),requiredInchPoundsInRange=!0x1):(calcDat[_0x5f5df3(0x14c)]=_0x3048f0,calcDat[_0x5f5df3(0x1d5)]=_0x5ac172,requiredInchPoundsInRange=!0x0,console[_0x5f5df3(0x151)](_0x5f5df3(0x181),{'selectedWireDiam':_0x3048f0})),_0x3048f0;}function springLength(){const _0x9c4b9d=_0x102882;console[_0x9c4b9d(0x151)](_0x9c4b9d(0x15d)+calcDat[_0x9c4b9d(0x102)]+'\x20*\x20'+calcDat[_0x9c4b9d(0xf6)]+_0x9c4b9d(0x177)+calcDat['rO']+'\x20*\x20'+calcDat[_0x9c4b9d(0xe2)]+_0x9c4b9d(0x1af)+calcDat['dR']);const _0x3cd997=(calcDat['lowMomentArm']*calcDat[_0x9c4b9d(0xf6)]-calcDat['rO']*calcDat[_0x9c4b9d(0xe2)])/calcDat['dR'];calcDat['ippt']=_0x3cd997,console[_0x9c4b9d(0x151)]('ippt:\x20',calcDat[_0x9c4b9d(0x131)]);const _0x487467=calcDat[_0x9c4b9d(0x14c)]*calcDat[_0x9c4b9d(0x14c)]*calcDat[_0x9c4b9d(0x14c)]*calcDat[_0x9c4b9d(0x14c)]*calcDat[_0x9c4b9d(0x14c)],_0x412124=calcDat[_0x9c4b9d(0x14c)]+3007281.86530169*_0x487467/(calcDat['ippt']*(rd[_0x9c4b9d(0x14f)][_0x9c4b9d(0xba)][_0x9c4b9d(0xf3)]+calcDat['selectedWireDiam']));return calcDat[_0x9c4b9d(0xc4)]=_0x412124,console[_0x9c4b9d(0x151)](_0x9c4b9d(0xe7),calcDat['springLength']),_0x412124;}function springTurns(){const _0x2caf39=_0x102882,_0x413b11=calcDat['springLength']/calcDat['selectedWireDiam'];return calcDat[_0x2caf39(0xe1)]=_0x413b11,_0x413b11;}function springWeight(){const _0x50db97=_0x102882,_0x48ed00=0.5*calcDat[_0x50db97(0x14c)],_0x11de16=Math['PI']*_0x48ed00*_0x48ed00,_0x2fa11f=rd[_0x50db97(0x14f)][_0x50db97(0xba)][_0x50db97(0xf3)]+calcDat[_0x50db97(0x14c)],_0x435a96=Math['PI']*_0x2fa11f*_0x11de16*springTurns()*constDat[_0x50db97(0x89)];return calcDat[_0x50db97(0x127)]=_0x435a96,_0x435a96;}function numMolder(_0x48f6d3,_0x53640e=0x5){const _0x2e5aae=_0x102882,_0x458518=_0x48f6d3[_0x2e5aae(0x11a)](),_0x2be800=xtract['integerPart'](''+_0x458518),_0x3b1a96=_0x53640e-xtract['sigFiguresCount'](_0x2be800);return _0x48f6d3['toFixed'](_0x3b1a96);}function spoolSpringSpecs(){const _0x6b271e=_0x102882,_0x1682e6=document[_0x6b271e(0x75)](_0x6b271e(0x13f)),_0x4006be=document['querySelector']('#datum-a');if(_0x1682e6[_0x6b271e(0x172)]=numMolder(calcDat['selectedWireDiam'],0x5),_0x1682e6[_0x6b271e(0x1c2)][_0x6b271e(0x13e)]=_0x6b271e(0x14e),_0x4006be[_0x6b271e(0x1c2)][_0x6b271e(0x13e)]=_0x6b271e(0x14e),document[_0x6b271e(0x75)]('#spring-on-hand')[_0x6b271e(0x16d)]?_0x6b271e(0x19e)===calcDat[_0x6b271e(0x1d5)]?(_0x1682e6[_0x6b271e(0x1c2)][_0x6b271e(0x175)]=_0x6b271e(0xa9),_0x4006be[_0x6b271e(0x1c2)][_0x6b271e(0x175)]=_0x6b271e(0xa9),_0x4006be['innerHTML']=_0x6b271e(0xbd)+calcDat[_0x6b271e(0x10b)]):(_0x1682e6['style'][_0x6b271e(0x175)]=calcDat[_0x6b271e(0x1d5)],_0x4006be['style'][_0x6b271e(0x175)]=calcDat[_0x6b271e(0x1d5)],_0x4006be[_0x6b271e(0x136)]=calcDat[_0x6b271e(0x1d5)][_0x6b271e(0xff)]('\x20Wire\x20Diameter,\x20Qty.\x20'+calcDat[_0x6b271e(0x10b)])):_0x4006be[_0x6b271e(0x136)]=_0x6b271e(0xcd)+calcDat[_0x6b271e(0x10b)],document[_0x6b271e(0x75)](_0x6b271e(0x1dc))[_0x6b271e(0x172)]=numMolder(calcDat[_0x6b271e(0x16c)],0x4),document[_0x6b271e(0x75)](_0x6b271e(0x1dc))[_0x6b271e(0x1c2)][_0x6b271e(0x175)]='white',document[_0x6b271e(0x75)]('#inches-c')[_0x6b271e(0x172)]=numMolder(calcDat[_0x6b271e(0xc4)],0x4),document[_0x6b271e(0x75)](_0x6b271e(0xef))['style'][_0x6b271e(0x175)]=_0x6b271e(0x146),document[_0x6b271e(0x75)](_0x6b271e(0xcb))[_0x6b271e(0x172)]=numMolder(calcDat[_0x6b271e(0xe1)],0x4),document[_0x6b271e(0x75)](_0x6b271e(0xcb))[_0x6b271e(0x1c2)][_0x6b271e(0x175)]='white',document['querySelector'](_0x6b271e(0x130))['textContent']=numMolder(calcDat[_0x6b271e(0x127)],0x4),document[_0x6b271e(0x75)](_0x6b271e(0x130))[_0x6b271e(0x1c2)][_0x6b271e(0x175)]=_0x6b271e(0x146),0x0===errorStack[_0x6b271e(0x19c)]){const _0x17c08d=document[_0x6b271e(0x75)]('h4');_0x17c08d['style'][_0x6b271e(0x175)]=_0x6b271e(0xa4),_0x17c08d[_0x6b271e(0x136)]=_0x6b271e(0xfb)+calcDat[_0x6b271e(0xe9)]+_0x6b271e(0x122);}}function unspoolSpringSpecs(){const _0x20226a=_0x102882;document[_0x20226a(0x75)](_0x20226a(0x13f))[_0x20226a(0x172)]='******',document[_0x20226a(0x75)](_0x20226a(0x13f))[_0x20226a(0x1c2)][_0x20226a(0x175)]=_0x20226a(0x113),document['querySelector'](_0x20226a(0x1dc))[_0x20226a(0x172)]='******',document['querySelector'](_0x20226a(0x1dc))[_0x20226a(0x1c2)][_0x20226a(0x175)]=_0x20226a(0x113),document[_0x20226a(0x75)](_0x20226a(0xef))['textContent']=_0x20226a(0x1c6),document[_0x20226a(0x75)](_0x20226a(0xef))[_0x20226a(0x1c2)][_0x20226a(0x175)]=_0x20226a(0x113),document['querySelector'](_0x20226a(0xcb))[_0x20226a(0x172)]=_0x20226a(0x1c6),document[_0x20226a(0x75)](_0x20226a(0xcb))['style'][_0x20226a(0x175)]=_0x20226a(0x113),document[_0x20226a(0x75)](_0x20226a(0x130))['textContent']=_0x20226a(0x1c6),document[_0x20226a(0x75)](_0x20226a(0x130))['style'][_0x20226a(0x175)]=_0x20226a(0x113),document[_0x20226a(0x75)](_0x20226a(0x13f))[_0x20226a(0x1c2)][_0x20226a(0x13e)]=_0x20226a(0x120),document['querySelector'](_0x20226a(0x1dc))[_0x20226a(0x1c2)][_0x20226a(0x13e)]=_0x20226a(0x120),document[_0x20226a(0x75)](_0x20226a(0xef))[_0x20226a(0x1c2)]['backgroundColor']=_0x20226a(0x120),document[_0x20226a(0x75)](_0x20226a(0xcb))[_0x20226a(0x1c2)]['backgroundColor']='darkred',document[_0x20226a(0x75)](_0x20226a(0x130))[_0x20226a(0x1c2)]['backgroundColor']=_0x20226a(0x120),document['querySelector'](_0x20226a(0x121))[_0x20226a(0x136)]=_0x20226a(0x100),document[_0x20226a(0x75)](_0x20226a(0xdc))['style']['setProperty'](_0x20226a(0xac),''),document[_0x20226a(0x75)]('#sketch-of-active-component')[_0x20226a(0x1c2)][_0x20226a(0x16b)]=_0x20226a(0x126),document[_0x20226a(0x75)](_0x20226a(0xc1))[_0x20226a(0x172)]=_0x20226a(0x115)+errorStack[0x0],document[_0x20226a(0x75)](_0x20226a(0xc1))[_0x20226a(0x1c2)][_0x20226a(0x175)]=_0x20226a(0x6f),document[_0x20226a(0x75)](_0x20226a(0xdc))[_0x20226a(0x1c2)][_0x20226a(0xa1)]('--blink-color',_0x20226a(0xd4));}function postToResultPage(){const _0x36243e=_0x102882;0x0===errorStack[_0x36243e(0x19c)]?spoolSpringSpecs():unspoolSpringSpecs(),console[_0x36243e(0x151)](_0x36243e(0x1bf),{'calcDat':calcDat});}function updateCalcBtnStyle(){const _0x292c73=_0x102882;!0x0===requiredInchPoundsInRange&&0x0===errorStack[_0x292c73(0x19c)]?(document[_0x292c73(0x75)](_0x292c73(0x162))[_0x292c73(0x1c2)][_0x292c73(0x13e)]=_0x292c73(0xbc),document[_0x292c73(0x75)](_0x292c73(0x162))[_0x292c73(0x1c2)][_0x292c73(0x175)]=_0x292c73(0xb5),document[_0x292c73(0x75)](_0x292c73(0x162))[_0x292c73(0x1a4)]='SUCCESS!'):(document['querySelector'](_0x292c73(0x162))[_0x292c73(0x1c2)][_0x292c73(0x13e)]=_0x292c73(0xbc),document[_0x292c73(0x75)](_0x292c73(0x162))[_0x292c73(0x1c2)]['color']='darkred',document[_0x292c73(0x75)](_0x292c73(0x162))['value']=_0x292c73(0x108),requiredInchPoundsInRange=!0x0);}function virtualCutout(){const _0x5ee2f4=_0x102882,_0xc66ad5=constDat[_0x5ee2f4(0xb0)],_0x248953=rd[_0x5ee2f4(0x129)][_0x5ee2f4(0xba)]['width']-calcDat[_0x5ee2f4(0xa7)]-_0xc66ad5,_0x5b620f=rd[_0x5ee2f4(0x129)][_0x5ee2f4(0xba)][_0x5ee2f4(0x16b)]-calcDat[_0x5ee2f4(0xe9)]-constDat[_0x5ee2f4(0x1a9)]-constDat[_0x5ee2f4(0x103)];console[_0x5ee2f4(0x151)](_0x5ee2f4(0x18d),_0x248953+_0x5ee2f4(0x13a)+_0x5b620f+'H');}function updateAfterNumCrunching(){setTimeout(()=>updateCalcBtnStyle(),0xaf);}function determineAllSpringSpecs(){const _0x3a763a=_0x102882;updRdWithVaultedDataPoints(),buildCalcDat1(),buildCalcDat2(),adjDueToCompressedAndWrappedSlats(),calcRoDrForHgoal(),exactEndplateSize(),exactHGoal(),calcRoDrForHgoal(calcDat[_0x3a763a(0x12e)]),fineTunner(calcDat['exactHGoal']),openHangingHeight(),closedHangingHeight(),slatAssemblyWidth(),accountForAmountOfSprings(),slatWidth(),oneSlatWeight(),bbAnglesWeight(),astragalWeight(),slideboltsWeight(),bbAssemblyWeight(),openHangingSlatCount(),openEndlocksCount(),openHangingWeight(),closedHangingSlatCount(),closedEndlocksCount(),closedWindlocksCount(),closedHangingWeight(),lowMomentArm(),requiredInchPound(),selectSpringWireDiameter(),springLength(),springTurns(),springWeight(),vaultSscValues(),postToResultPage(),virtualCutout(),updateAfterNumCrunching();}const calcResultsBtn=document[_0x102882(0x75)]('#calc-results');let blockMultipleCalcResults;function vaultErrorStack(){const _0x135e51=_0x102882;window[_0x135e51(0x167)][_0x135e51(0x96)](_0x135e51(0x76),JSON[_0x135e51(0x143)](errorStack));}function bsNumCruncher(){const _0xf2b8f2=_0x102882;updRdWithVaultedDataPoints(),buildCalcDat2(),adjDueToCompressedAndWrappedSlats(),calcRoDrForHgoal(),exactEndplateSize(),exactHGoal(),calcRoDrForHgoal(calcDat[_0xf2b8f2(0x12e)]),fineTunner(calcDat[_0xf2b8f2(0x12e)]),closedHangingHeight(),slatAssemblyWidth(),slatWidth(),oneSlatWeight(),bbAnglesWeight(),astragalWeight(),slideboltsWeight(),bbAssemblyWeight(),closedHangingSlatCount(),closedEndlocksCount(),closedWindlocksCount(),closedHangingWeight(),virtualCutout(),vaultErrorStack(),console[_0xf2b8f2(0x151)]('MY\x20WHOLE\x20APP\x20CALC\x27d\x20SPECS:\x20',{'calcDat':calcDat});}function vaultSscValues(){const _0x219b48=_0x102882,_0xa1c775={'springQty':calcDat[_0x219b48(0x10b)],'springID':calcDat[_0x219b48(0x16c)],'springWireSize':calcDat[_0x219b48(0x14c)],'springLength':calcDat[_0x219b48(0xc4)],'maxTurns':calcDat['dR'],'ippt':calcDat[_0x219b48(0x131)],'activeCoils':calcDat[_0x219b48(0xe1)],'totalCoils':calcDat[_0x219b48(0xe1)],'weight':calcDat[_0x219b48(0x127)],'cycles':_0x219b48(0x15a),'lowMomentArm':calcDat['lowMomentArm'],'highMomentArm':calcDat['rO'],'totalWeight':calcDat[_0x219b48(0xf6)],'openWeight':calcDat[_0x219b48(0xe2)],'revolutionsOfBarrel':calcDat['dR']};console[_0x219b48(0x151)](_0xa1c775),window[_0x219b48(0x167)][_0x219b48(0x96)](_0x219b48(0x73),JSON[_0x219b48(0x143)](_0xa1c775));}calcResultsBtn['addEventListener'](_0x102882(0x1d3),()=>{blockMultipleCalcResults||setTimeout(function(){determineAllSpringSpecs(),blockMultipleCalcResults=!0x0;},0xfa);});let sscWireBtn=document[_0x102882(0x75)]('.ssc-wire');function loadSscWireDoc(){const _0x39c03c=_0x102882;window[_0x39c03c(0x1a2)]=_0x39c03c(0xfd);}sscWireBtn[_0x102882(0x1c9)](_0x102882(0x164),loadSscWireDoc);let sscCyclesBtn=document[_0x102882(0x75)](_0x102882(0x8e));function loadSscCyclesDoc(){const _0x4a07c7=_0x102882;window['location']=_0x4a07c7(0x80);}sscCyclesBtn[_0x102882(0x1c9)]('click',loadSscCyclesDoc);
+"use strict";
+//localStorage.clear();
+// Auxiliary function used by First run
+function readPairDirective () {
+ const directive = JSON.parse(window.localStorage.getItem("pairScriptToPC"));
+ return directive;
+}
+function readMachineSerialNum () {
+ const machineSerialNum = JSON.parse(
+  window.localStorage.getItem("hardwareSerialNum")
+ );
+ return machineSerialNum;
+}
+function preserveScriptSerialNum () {
+ const scriptSerialNumToPreserv = calcDat.softwareSerialNumber;
+ console.log('softwareSerialNumber to preserve: ', calcDat.softwareSerialNumber);
+ window.localStorage.setItem(
+  "softwareSerialNumber",
+  JSON.stringify(scriptSerialNumToPreserv)
+ );
+}
+function readScriptSerialNum () {
+ const swSerialNum = JSON.parse(window.localStorage.getItem("softwareSerialNumber"));
+ return swSerialNum;
+}
+function disablePairing () {
+ const pairScriptToPC = false;
+ window.localStorage.setItem("pairScriptToPC", JSON.stringify(pairScriptToPC));
+}
+
+// Configuration of script during its first run:
+function firstRun() {
+ const pairScriptToPC = readPairDirective();
+ if (pairScriptToPC !== true) {
+  // Abort pairing procedure
+  return;
+ } else {
+  console.log('Now performing first run pairing procedure...');
+  // Pairing Directive is asserted therefore, execute the pairing procedure ("Hardcode" the Hardware Serial Number to the script)
+  // Capture HW S/N and establish as S/W S/N
+  calcDat.softwareSerialNumber = readMachineSerialNum();
+  // Fake hardcoding of serial number in the software by saving it to localStorage using appropriate name
+  preserveScriptSerialNum();
+  // Prevent any future pairings
+  disablePairing();
+  console.log('First run pairing procedure completed.');
+ }
+}
+
+// Test for permission to execute script
+function testScriptUsagePermit () {
+ const pairScriptToPC = readPairDirective();
+ if (pairScriptToPC !== false) {
+  allowSwitchingToNextPage = false;
+  // Output fault status to display
+  document.querySelector("#password").innerText = 'Serialization Fault: PC not authorized.';
+  return;
+ } else if (pairScriptToPC === false) {
+  // Assert ("hardcode") script serial number
+  calcDat.softwareSerialNumber = readScriptSerialNum();
+  // Retrieve H/W serial number
+  const hardwareSerialNum = readMachineSerialNum();
+
+  if (hardwareSerialNum === calcDat.softwareSerialNumber) {
+   allowSwitchingToNextPage = true;
+// §
+   // Output H/W S/N to display
+   document.querySelector("#password").innerText = `PC ID: ${hardwareSerialNum},  Script Version: ${constDat.scriptVersion}`;
+   // Output both S/N to console
+   console.log(
+    "hardwareSerialNum: ",
+    hardwareSerialNum,
+    "calcDat.softwareSerialNumber: ",
+    calcDat.softwareSerialNumber,
+    "Script Version: ",
+    constDat.scriptVersion
+   );
+  }
+ } else {
+  // Unforeseen fault
+  document.querySelector("#password").innerText = `UNKNOWN ERROR`;
+ }
+}
+
+// Maximize browser window
+//window.moveTo(0, 0);
+//window.resizeTo(screen.width, screen.height);
+
+// ################################
+// THE ROLLING DOOR OBJECT:
+// §###############################
+/*
+The RD measurements template properties object.
+*/
+let rd = {
+ DataContainerNames: [
+  "rdOutline",
+  "barrel",
+  "slats",
+  "bottomBar",
+  "bottomBar",
+  "spring",
+  "misc",
+  "misc2",
+ ],
+ startPage: {
+  objNo: 0,
+  pageHeader: "🐝 Welcome to RD Designer! 🐝",
+  sketchFileName: "url(startPage.jpg)",
+  noOfDataPoints: 0,
+  domInchesPlaceholders: [],
+  labels: [],
+  datumKeys: [],
+  datumValues: [],
+  dataPoints: {},
+  prevObjName: "startPage",
+  activeObjName: "startPage",
+  nextObjName: "rdOutline",
+ },
+
+ rdOutline: {
+  objNo: 1,
+  pageHeader: "RD Outline:",
+  sketchFileName: "url(rdOutline.jpg)",
+  noOfDataPoints: 2,
+  ftPresets: ["" ,""], //  [10,11],
+  ftView: ["inline-block",
+   "inline-block"],
+  inchesPresets: ["", ""], // [6.25, 5],
+  domInchesPlaceholders: ["0 inches",
+   "0 inches"],
+  labels: ["Width",
+   "Height"],
+  datumKeys: ["width",
+   "height"],
+  datumValues: [],
+  dataPoints: {
+   width: 0,
+   height: 0,
+  },
+  prevObjName: "startPage",
+  activeObjName: "rdOutline",
+  nextObjName: "barrel",
+ },
+
+ /*
+ // Design note:
+ // to use this ojject instead of the rdOutline obj, replace all instances or 'rdOutline' by 'wallCutout'.
+  wallCutout: {
+    objNo: 1,
+    pageHeader: 'Wall Cutout:',
+    sketchFileName: 'url(wallCutout.jpg)',
+    noOfDataPoints: 5,
+    ftPresets: [10, 10, 2, 1, 1],
+    inchesPresets: [0, 0, 0, 0, 0],
+    ftView: ['inline-block' , 'inline-block' , 'inline-block', 'inline-block', 'inline-block'],
+    domInchesPlaceholders: [],
+    labels: ['Width',
+      'Height',
+      'Top',
+      'Left',
+      'Right'],
+    datumKeys: ['width',
+      'height',
+      'topClearance',
+      'leftClearance',
+      'rightClearance'],
+    datumValues: [120, 120, 30, 20, 20],
+    dataPoints: {
+    width:120,
+      height: 120,
+      topClearance: 30,
+      leftClearance: 18,
+      rightClearance: 20
+    },
+    prevObjName: 'startPage',
+    activeObjName: 'wallCutout',
+    nextObjName: 'barrel'
+  },
+
+*/
+
+ barrel: {
+  objNo: 2,
+  pageHeader: "Barrel:",
+  sketchFileName: "url(barrel.jpg)",
+  noOfDataPoints: 1,
+  ftPresets: [0],
+  inchesPresets: [4],
+  ftView: ["none"],
+  domInchesPlaceholders: ["style"],
+  labels: ["Barrel Style"],
+  datumKeys: ["barrelStyle"],
+  datumValues: [],
+  dataPoints: {},
+  prevObjName: "rdOutline",
+  activeObjName: "barrel",
+  nextObjName: "slats",
+ },
+
+ slats: {
+  objNo: 3,
+  pageHeader: "Slats:",
+  sketchFileName: "url(slats.jpg)",
+  noOfDataPoints: 2,
+  ftPresets: [0,
+   0],
+  inchesPresets: [1,
+   2],
+  ftView: ["none",
+   "none"],
+  domInchesPlaceholders: ["style",
+   "gauge"],
+  labels: ["Slats Style",
+   "Slat Gauge"],
+  datumKeys: ["slatStyle",
+   "thickness"],
+  datumValues: [],
+  dataPoints: {},
+  prevObjName: "barrel",
+  activeObjName: "slats",
+  nextObjName: "bottomBar",
+ },
+
+ bottomBar: {
+  objNo: 4,
+  pageHeader: "Bottom Bar:",
+  sketchFileName: "url(bottomBar.jpg)",
+  noOfDataPoints: 4,
+  ftPresets: [0,
+   0,
+   0,
+   0],
+  inchesPresets: [2,
+   2,
+   0.125,
+   2],
+  ftView: ["none",
+   "none",
+   "none",
+   "none"],
+  domInchesPlaceholders: ["0 inches",
+   "0 inches",
+   "0 inches",
+   "Qty 0"],
+  labels: ["Angle Height",
+   "Angle Width",
+   "Angle Thickness",
+   "Angles Qty."],
+  datumKeys: [
+   "bbAngleVerticalSide",
+   "bbAngleHorizontalSide",
+   "bbAngleThickness",
+   "bbAnglesAmount",
+  ],
+  datumValues: [],
+  dataPoints: {
+   bbAngleVerticalSide: 0,
+   bbAngleHorizontalSide: 0,
+   bbAngleThickness: 0,
+   bbAnglesAmount: 0,
+  },
+  prevObjName: "slats",
+  activeObjName: "bottomBar",
+  nextObjName: "misc",
+ },
+
+ misc: {
+  objNo: 5,
+  pageHeader: "Other Items:",
+  sketchFileName: "url(misc.jpg)",
+  noOfDataPoints: 4,
+  ftPresets: [0,
+   0,
+   0,
+   0],
+  inchesPresets: [1,
+   0,
+   0,
+   0],
+  ftView: ["none",
+   "none",
+   "none",
+   "none"],
+  domInchesPlaceholders: ["none",
+   "none",
+   "none",
+   "none"],
+  labels: [
+   "Endlocks Style",
+   "Windlock Style",
+   "Slidebolts",
+   "Bottom bar rubber",
+  ],
+  datumKeys: [
+   "endlockStyle",
+   "windlockStyle",
+   "slideBoltsStyle",
+   "astragalStyle",
+  ],
+  datumValues: [],
+  dataPoints: {},
+  prevObjName: "bottomBar",
+  activeObjName: "misc",
+  nextObjName: "spring",
+ },
+
+ spring: {
+  objNo: 6,
+  pageHeader: "Torsion Spring:",
+  sketchFileName: "url(spring.jpg)",
+  noOfDataPoints: 2,
+  ftPresets: [0,
+   0],
+  inchesPresets: [3,
+   1],
+  ftView: ["none",
+   "none"],
+  domInchesPlaceholders: ["0 inches",
+   "Qty 0"],
+  labels: ["Inches Inside",
+   "Amount of Springs"],
+  datumKeys: ["intDia",
+   "amountOfSprings"],
+  datumValues: [],
+  dataPoints: {},
+  prevObjName: "misc",
+  activeObjName: "spring",
+  nextObjName: "result",
+ },
+
+ /*
+ // obj not used for Minyety version, since RD outline sizes are used.
+  misc2: {
+    objNo: 7,
+    pageHeader: 'Mounting Location:',
+    sketchFileName: 'url(misc2.jpg)',
+    noOfDataPoints: 1,
+    ftPresets: [0],
+    inchesPresets: [1],
+    ftView: ['none'],
+    domInchesPlaceholders: [],
+    labels: ['Location'],
+    datumKeys: ['mounting'],
+    datumValues: [1],
+    dataPoints: {
+    },
+    prevObjName: 'misc',
+    activeObjName: 'misc2',
+    nextObjName: 'result'
+  },
+*/
+
+ result: {
+  objNo: 8,
+  pageHeader: "Spring Parameters:",
+  sketchFileName: "url(result.jpg)",
+  noOfDataPoints: 5,
+  ftPresets: [0,
+   0,
+   0,
+   0,
+   0],
+  inchesPresets: ["0",
+   "0",
+   "0",
+   "0",
+   "0"],
+  ftView: ["none",
+   "none",
+   "none",
+   "none",
+   "none"],
+  domInchesPlaceholders: ["0 inches",
+   "0 inches",
+   "0 inches",
+   "1 ea",
+   "1 lb"],
+  labels: [
+   " Wire Diameter",
+   " Internal Diameter",
+   " Length",
+   " Amount of Coils",
+   " Weight",
+  ],
+  datumKeys: [
+   "selectedWireDiam",
+   "internalDiameter",
+   "width",
+   "amountOfCoils",
+   "weight",
+  ],
+  datumValues: [],
+  dataPoints: {
+   selectedWireDiam: 0,
+   internalDiameter: 0,
+   width: 0,
+   amountOfCoils: 0,
+   weight: 0,
+  },
+  prevObjName: "startPage",
+  activeObjName: "result",
+  nextObjName: "result",
+ }
+};
+
+//  Global variables
+let activeObj; // global due to numerous times used
+
+// Values for debugging purposes:
+
+// ################################
+// THE ON_PAGE_LOAD SCRIPT
+// §###############################
+/*
+All pages derived from main Template require that data console.logbutton is pressed before allowing switch to next page. On start page we have no capture button, but next button is same on all pages. This flag is to provide mechanism for switching to the next page without having a capture button on the start page.
+*/
+let allowSwitchingToNextPage;
+/*
+Note: The Template ID is hard coded in the page. Therefore it is a primary reference entry point.
+*/
+function returnTemplateId() {
+ const templateIdAttr = document
+ .querySelector("#template-id")
+ .getAttribute("class");
+ return templateIdAttr;
+}
+
+// Initialize LocSt w/ home Page's Name
+/*
+Save the activeObjName of the home page to localStorage. This is necessarily for consistency. Because then I can use the same navigation rules, etc. for all pages.
+*/
+function homePageNameToLocSto() {
+ const homePageName = "startPage";
+ window.localStorage.setItem(
+  "nxtCompNamePassedOnByPrevCompPage",
+  JSON.stringify(homePageName)
+ );
+}
+
+/*
+Retrieve from localStorage the component obj name that will be used to build the page:
+*/
+function activeCompObjNameFromLS() {
+ const compObjNameNow = JSON.parse(
+  window.localStorage.getItem("nxtCompNamePassedOnByPrevCompPage")
+ );
+ /* The reference frame for the naming convention (previous, now, next) is the page currently on display. What used to be nextObjName for previous page is compObjNameNow for current page, and so on.
+   */
+ return compObjNameNow;
+}
+
+function displayTemplateId() {
+ const templateId = document.querySelector("#template-id");
+ const templateIdAttr = document
+ .querySelector("#template-id")
+ .getAttribute("class");
+ templateId.innerHTML = `templateId is: ${templateIdAttr}`;
+}
+
+/*
+Establish the component's object name of the page. In other words, embed the activeCompObjName into a span placeholder attribute in the DOM. This attribute will be used to build a pointer to the active component object that holds all active page properties. In turn, these properties will be use to build pages on the fly using a common document template. AGENIUS!!:
+*/
+function establishPageName() {
+ const compObjNameNow = activeCompObjNameFromLS();
+ const pageHeaderObj = document.querySelector("#name-of-component-obj");
+ pageHeaderObj.setAttribute("class", `${compObjNameNow}`);
+}
+
+/*
+Note: The term [document.querySelector('#name-of-component-obj').getAttribute('class')] is the active component object.
+*/
+function returnTheActiveObj() {
+ const activeObject =
+ rd[document.querySelector("#name-of-component-obj").getAttribute("class")];
+ return activeObject;
+}
+
+function returnTheActivePageName() {
+ const nameOfActivePage = activeObj.activeObjName;
+ return `${nameOfActivePage}`;
+}
+
+function displayPageName() {
+ const pageName = document.querySelector("#name-of-component-obj");
+ pageName.innerHTML = `pageName is: ${returnTheActivePageName()}`;
+}
+
+// ulShowHideCtrl() no longer used:
+
+/*
+Populate the page's top heather:
+*/
+function populatePageTopHeather() {
+ const topHeather = document.querySelector("#component-name-header");
+ topHeather.innerHTML = activeObj.pageHeader;
+}
+
+//Display component sketch:
+function PopulateCompSketchFrame() {
+ const pointerToSketchName = activeObj.sketchFileName;
+ document
+ .querySelector(":root")
+ .style.setProperty("--component-sketch", `${pointerToSketchName}`);
+}
+
+/*
+Back button label must show Start Page if first component page is on display
+*/
+function updatePrevBtnLabel() {
+ if (activeObj.objNo === 1) {
+  previousComponentBtn.value = "Start Page";
+ }
+}
+
+/*
+On page load, populate all page labels according to its component obj name.
+*/
+function populateDatumLabels() {
+ const datumLabelsPlaceholders = document.getElementsByClassName(
+  "datum-labels"
+ );
+ const datumLabels = activeObj.labels;
+ for (let i = 0; i < datumLabelsPlaceholders.length; i++) {
+  datumLabelsPlaceholders[i].innerHTML = datumLabels[i];
+ }
+}
+
+function ldFtDfaults() {
+ const ftValueFields = document.getElementsByClassName("feet-value");
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  ftValueFields[i].value = activeObj.ftPresets[i];
+ }
+}
+
+function ldInchesDfaults() {
+ const inchesValueFields = document.getElementsByClassName("inches-value");
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  inchesValueFields[i].value = activeObj.inchesPresets[i];
+ }
+}
+
+function setInchesPlaceholders() {
+ const inchesValueFields = document.getElementsByClassName("inches-value");
+ const desiredPlaceholders = activeObj.domInchesPlaceholders;
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  inchesValueFields[i].placeholder = desiredPlaceholders[i];
+ }
+}
+
+function setFtValsVisibility() {
+ const ftValueFields = document.getElementsByClassName("feet-value");
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  const pointerToSketchName = activeObj.ftView[i];
+  ftValueFields[i].style.setProperty(
+   "--feet-view-style",
+   `${pointerToSketchName}`
+  );
+ }
+}
+
+function hideEmptyDatums() {
+ // Grab li collection and convert to array
+ const measurementsList = Array.from(document.getElementsByTagName("li"));
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (let i = 0; i < amountOfDataPoints; i++) {
+  measurementsList[i].style.position = "relative";
+ }
+}
+
+function initializeBtnsStyles() {
+ // Grab buttons
+ const startBtn = document.querySelector(".start-rolling-btn");
+ const readFormData = document.querySelector("#load-measurements");
+ const previousPageBtn = document.querySelector("#previous-page");
+ const nextPageBtn = document.querySelector("#next-page");
+ // Do on page load
+ if (activeObj.objNo === 0) {
+  startBtn.style.color = "white";
+ } else {
+  readFormData.style.backgroundColor = "lightgray";
+  previousPageBtn.style.backgroundColor = "lightgray";
+  nextPageBtn.style.backgroundColor = "lightgray";
+  readFormData.style.color = "darkblue";
+  previousPageBtn.style.color = "darkgreen";
+  nextPageBtn.style.color = "darkred";
+ }
+}
+
+/*
+ All above functions are called by the onload function. They are used to build the page for the active component object, by populating all page labels, pictures and styles. All this upon page load.
+*/
+window.onload = function () {
+ // document.documentElement.requestFullscreen();
+ allowSwitchingToNextPage = false;
+ // Read Template ID of the Page, and simultaneously populate template id label:
+ const templateId = returnTemplateId();
+ // Chk if home template
+ if (templateId === "home") {
+  // Clear localStorage
+  // window.localStorage.clear();
+  // Initialize LocSt w/ home's Page Name:
+  homePageNameToLocSto();
+
+  // Script anti-piracy
+  firstRun();
+  testScriptUsagePermit();
+  //allowSwitchingToNextPage = true;
+ }
+ // Now handle home page as any other component page...
+ // Populate template ID label (debbugging only. Not needed):
+ // displayTemplateId();
+ // Determine Page Name:
+ establishPageName();
+ // Populate page name label (debbugging only. Not needed):
+ // displayPageName();
+ //displayAndReturnPageName();
+ //populate page top heather:
+ activeObj = returnTheActiveObj();
+
+ populatePageTopHeather();
+ //Display component sketch:
+ PopulateCompSketchFrame();
+
+ //ulShowHideCtrl();
+
+ updatePrevBtnLabel();
+
+ // datum-labels
+ populateDatumLabels();
+
+ ldFtDfaults();
+
+ ldInchesDfaults();
+
+ setInchesPlaceholders();
+
+ setFtValsVisibility();
+
+ hideEmptyDatums();
+
+ initializeBtnsStyles();
+
+ if (activeObj.objNo === 8) {
+  /*
+  Note: 8 is the result page.  Calc button is same capture button that takes on a "calc identity" on the result page. That's why a new button skin is required.
+  */
+  styleCaptureBtnAsCalcBtn();
+  // Reset flag before user captures any data
+  // calcDat.numCruncherErrorFlag=false;
+ }
+};
+
+// ################################
+// BELOW IS THE NAVIGATION OF THE APP:
+// §###############################
+
+// Styling of the buttons on mousedown:
+function mousedownPreviousBtnAnimation() {
+ const previousPageBtn = document.querySelector("#previous-page");
+ // Do on button actuation
+ previousPageBtn.style.backgroundColor = "black";
+ previousPageBtn.style.color = "white";
+}
+const previousPageBtn = document.querySelector("#previous-page");
+previousPageBtn.addEventListener("mousedown", mousedownPreviousBtnAnimation);
+
+function mousedownNextBtnAnimation() {
+ const nextPageBtn = document.querySelector("#next-page");
+ // Do on button actuation
+ nextPageBtn.style.backgroundColor = "black";
+ nextPageBtn.style.color = "white";
+}
+const nextPageBtn = document.querySelector("#next-page");
+nextPageBtn.addEventListener("mousedown", mousedownNextBtnAnimation);
+
+// Page switching on mouseup:
+/*
+Actions of the Previous Component navigation button:
+*/
+function stashPrevComponentName() {
+ const prevComponentName = activeObj.prevObjName;
+ window.localStorage.setItem(
+  "nxtCompNamePassedOnByPrevCompPage",
+  JSON.stringify(prevComponentName)
+ );
+}
+/*
+Switch to the previous component page after a brief time delay. Delay allows time for current page to save previous page name to localStorage before transferring control to previous page.
+*/
+
+function switchToPrevComponent() {
+ setTimeout(function () {
+  /*
+Going back from the first component page must load the start page.
+*/
+  if (activeObj.objNo === 1 || activeObj.objNo === 8) {
+   window.location = "index.html";
+   /*
+    } else if(activeObj.objNo === 7) {
+      window.location = 'radioTemplate.html';
+    */
+  } else {
+   window.location = "mainTemplate.html";
+  }
+ },
+  50);
+}
+
+const previousComponentBtn = document.querySelector("#previous-page");
+previousComponentBtn.addEventListener("mouseup", () => {
+ stashPrevComponentName(); // localStorage previous component page relative to the current component page.
+ switchToPrevComponent(); // Switch to the previous component page after a brief time delay.
+});
+/*
+Actions of the Next Component navigation button:
+*/
+
+function stashNxtComponentName() {
+ const nextObjName = activeObj.nextObjName;
+ window.localStorage.setItem(
+  "nxtCompNamePassedOnByPrevCompPage",
+  JSON.stringify(nextObjName)
+ );
+}
+
+/*
+Switch to the next component page after a brief time delay. Delay allows time for current page to save next page name to localStorage before transferring control to next page.
+*/
+
+
+function switchToNxtComponent() {
+ setTimeout(() => {
+  /*
+Going forward from the last component page must load the result page.
+*/
+  /*
+    if (activeObj.objNo === 5 ||activeObj.objNo === 6 ) {
+     window.location = 'radioTemplate.html';
+    }else      */
+     
+     const retrievedBarrelStyle = JSON.parse(window.localStorage.getItem('barrelStyle'));
+     
+   console.log('activeObj.objNo',activeObj.objNo, 'retrievedBarrelStyle', retrievedBarrelStyle);
+if (activeObj.objNo === 5 && retrievedBarrelStyle===5) {
+   window.location = "bsResultTemplate.html";
+ } else if (activeObj.objNo === 6) {
+   window.location = "resultTemplate.html";
+  } else {
+   window.location = "mainTemplate.html";
+  }
+ },
+  50);
+}
+document.querySelector("#next-page").addEventListener("mouseup", () => {
+ if (allowSwitchingToNextPage === true) {
+  stashNxtComponentName(); // localStorage next component page relative to the current component page.
+  switchToNxtComponent(); // Switch to the next component page after a brief time delay.
+ } else {
+  document.querySelector("#load-measurements").style.color = "darkred";
+  document.querySelector("#load-measurements").value = "CAPTURE REQUIRED";
+  document.querySelector("#next-page").style.backgroundColor = "darkred";
+  return;
+ }
+});
+
+// ################################
+// BELOW IS THE DATA CAPTURE OF THE APP:
+// §###############################
+
+function mousedownCaptureBtnAnimation() {
+ // Grab buttons
+ const animateCaptureBtnColors = document.querySelector("#load-measurements");
+ // Do on button actuation
+ animateCaptureBtnColors.style.backgroundColor = "black";
+ animateCaptureBtnColors.style.color = "white";
+}
+const animateCaptureBtnColors = document.querySelector("#load-measurements");
+animateCaptureBtnColors.addEventListener(
+ "mousedown",
+ mousedownCaptureBtnAnimation
+);
+
+// rdObjFromLocSto() no longer used:
+
+function readDataFormValues() {
+ // Collect inches data
+ const inchesTypedCollection = document.querySelectorAll(".inches-value");
+ // Collect feet inchesData
+ const feetTypedCollection = document.querySelectorAll(".feet-value");
+ // Push values to create arrays
+ let inchesValues = [];
+ let feetValues = [];
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (let i = 0; i < amountOfDataPoints; i++) {
+  inchesValues.push(inchesTypedCollection[i].value);
+  feetValues.push(feetTypedCollection[i].value);
+ }
+ // Return both arrays inside an object
+ const rawValues = {
+  capturedFeet: feetValues,
+  capturedInches: inchesValues,
+ };
+ return rawValues;
+}
+
+function normalizeDataPointValuesToInches() {
+ // load both arrays
+ const rawValues = readDataFormValues();
+ // Restrict iterations to valid values only
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ let formDataInInches = [];
+ // Normalize to inches and totalize
+ for (let i = 0; i < amountOfDataPoints; i++) {
+  formDataInInches.push(
+   12 * rawValues.capturedFeet[i] + 1 * rawValues.capturedInches[i]
+  );
+ }
+ return formDataInInches;
+}
+
+function saveDataPointInchesToActiveObj() {
+ const formDataInInches = normalizeDataPointValuesToInches();
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  activeObj.datumValues[i] = formDataInInches[i];
+ }
+}
+
+function buildDataPointObjIntoActiveObj() {
+ const amountOfDataPoints = activeObj.noOfDataPoints;
+ for (var i = 0; i < amountOfDataPoints; i++) {
+  activeObj.dataPoints[activeObj.datumKeys[i]] = activeObj.datumValues[i];
+  
+ }
+ console.log(`${activeObj.activeObjName} dataPoints`, activeObj.dataPoints);
+ // Note:  Once data is captured, update capture button appearance, and next button appearance
+}
+
+function vaultDataPointsToLocSto() {
+ window.localStorage.setItem(
+  `${activeObj.activeObjName}`,
+  JSON.stringify(activeObj.dataPoints)
+ );
+
+ // Save barrelStyle to localStorage. Later on we will retrieve and use as condition to display the yoyo result page
+ if ( `${activeObj.activeObjName}`==='barrel' ) {
+  
+  console.log('Saving barrelStyle to localStorage... done!');
+  
+  let barrelStyle = rd.barrel.dataPoints.barrelStyle;
+  window.localStorage.setItem(
+   'barrelStyle',
+  JSON.stringify(barrelStyle)
+  );
+  console.log('saved barrelStyle: ', barrelStyle);
+   
+  
+ }
+}
+
+function afterDataCapturedBtnStyles() {
+ const captureBtnLabel = document.querySelector("#load-measurements");
+ captureBtnLabel.style.backgroundColor = "lightgray";
+ captureBtnLabel.style.color = "darkgreen";
+ captureBtnLabel.value = "DATA WAS CAPTURED";
+
+ allowSwitchingToNextPage = true;
+
+ const nextPageBtn = document.querySelector("#next-page");
+ nextPageBtn.style.backgroundColor = "lightgray";
+ nextPageBtn.style.color = "darkgreen";
+}
+
+function updateBtnsStyles() {
+ // This delay is to extend the time of the capture data btn animation. Otherwise animation won't be perceived.
+ setTimeout(() => afterDataCapturedBtnStyles(), 175);
+}
+
+// retrieveALocStoObj() no longer used:
+
+function saveACompDataToActiveObj() {
+ // rdObjFromLocSto();
+ readDataFormValues();
+ normalizeDataPointValuesToInches();
+ saveDataPointInchesToActiveObj();
+ buildDataPointObjIntoActiveObj();
+ vaultDataPointsToLocSto();
+
+ // After data capture, run whole script without displaying results
+ if (`${activeObj.activeObjName}`==='misc') {
+  bsNumCruncher();
+ }
+ updateBtnsStyles();
+ // retrieveALocStoObj(`${activeObj.activeObjName}`);
+}
+
+const captureDataBtn = document.querySelector("#load-measurements");
+captureDataBtn.addEventListener("mouseup", function () {
+ saveACompDataToActiveObj();
+});
+
+// ################################
+// BELOW IS APP NUMBER CRUNCHING
+// §###############################
+
+// EXTRACTION LIBRARY:
+//####################################
+/* signifFigCounter v2.0.js */
+//####################################
+var xtract = {
+ functionNameLocked: false,
+
+ numericPart: function (aNum) {
+  this.functionNameLocked = true;
+  let userEntryAbsVal;
+  if (aNum.slice(0, 1) === "-" || aNum.slice(0, 1) === "+") {
+   userEntryAbsVal = aNum.slice(1);
+  } else {
+   userEntryAbsVal = aNum.slice(0);
+  }
+  let wholeNumStr;
+  if (this.hasAnE(aNum)) {
+   wholeNumStr = userEntryAbsVal;
+   const sliceStop = wholeNumStr.indexOf("e");
+   const numPortion = wholeNumStr.slice(0, sliceStop);
+   this.functionNameLocked = false;
+   return numPortion; // a string.
+  }
+  const numPortion = userEntryAbsVal;
+  this.functionNameLocked = false;
+  return numPortion;
+ },
+
+ integerPart: function (aNum) {
+  const numbStr = this.numericPart(aNum);
+  if (this.hasADot(aNum)) {
+   const sliceStop = numbStr.indexOf(".");
+   const integerPortion = numbStr.slice(0, sliceStop);
+   return integerPortion;
+  }
+  const integerPortion = numbStr;
+  return integerPortion;
+ },
+
+ hasAnE: function (aNum) {
+  this.functionNameLocked = true;
+  if (aNum.includes("e")) {
+   // yes
+   const hasExp = true;
+   this.functionNameLocked = false;
+   return hasExp;
+  }
+  //no
+  const hasExp = false;
+  this.functionNameLocked = false;
+  return hasExp;
+ },
+
+ hasADot: function (aNum) {
+  if (aNum.includes(".")) {
+   // yes
+   const hasDot = true;
+   return hasDot;
+  }
+  //no
+  const hasDot = false;
+  return hasDot;
+ },
+ sigFiguresCount: function (aNum) {
+  this.functionNameLocked = true;
+  const sigDigCnt = this.significantFigures(aNum).length;
+  this.functionNameLocked = false;
+  return sigDigCnt;
+ },
+ significantFigures: function (aNum) {
+  this.functionNameLocked = true;
+  const alphamericCoreStr = this.numericPart(aNum);
+  // Any number of only zeroes with a dot somewhere:
+  if (1 * alphamericCoreStr === 0 && alphamericCoreStr.includes(".")) {
+   const signifFigs = "0" + this.fractionalPart(aNum); // Leftmost 0 is implied. Therefore, correct the original user entry adding a Leftmost 0.
+   this.functionNameLocked = false;
+   return signifFigs;
+  }
+  // Any number of only zeroes with no dot anywhere:
+  if (1 * alphamericCoreStr === 0 && !alphamericCoreStr.includes(".")) {
+   const signifFigs = "0";
+   this.functionNameLocked = false;
+   return signifFigs;
+  }
+  // Non-zero valued numeric part that starts with a dot:
+  if (alphamericCoreStr.slice(0, 1) === ".") {
+   const signifFigs = "0" + this.fractionalPart(aNum);
+   this.functionNameLocked = false;
+   return signifFigs;
+  }
+  this.functionNameLocked = true;
+  let non0ClusterStr = this.zeroTrimmedCore(aNum);
+  this.functionNameLocked = false;
+  // Any other except previous "returns", that contain a dot somewhere:
+  if (non0ClusterStr.includes(".")) {
+   const indexOfDot = non0ClusterStr.indexOf(".");
+   const jointString =
+   non0ClusterStr.slice(0, indexOfDot) +
+   non0ClusterStr.slice(1 + indexOfDot);
+   const signifFigs = jointString;
+   this.functionNameLocked = false;
+   return signifFigs;
+  }
+  // Any numeric part that doesn't contain a dot:
+  // +011e-2
+  const signifFigs = this.zeroTrimmedCore(aNum);
+  this.functionNameLocked = false;
+  return signifFigs;
+ },
+
+ zeroTrimmedCore: function (aNum) {
+  this.functionNameLocked = true;
+  // Zero valueds with or without dot somewhere:
+  if (1 * aNum === 0 && this.hasADot()) {
+   const non0Cluster = ".";
+   this.functionNameLocked = false;
+   return non0Cluster;
+  }
+  if (1 * aNum === 0 && !this.hasADot(aNum)) {
+   const non0Cluster = "";
+   this.functionNameLocked = false;
+   return non0Cluster;
+  }
+  let numbStr = this.numericPart(aNum);
+  let absNumbStr;
+  //numbers that have the form ".x"
+  if (numbStr.slice(0, 1) === ".") {
+   numbStr = (1 * numbStr).toString(); // trim leading zeroes
+   const non0Cluster = numbStr.slice(0); // trim trailing 0 introduced by 1* operation
+   this.functionNameLocked = false;
+   return non0Cluster;
+  }
+  if (numbStr.slice(-1) === ".") {
+   // x. case
+   numbStr = (1 * numbStr).toString(); // trim trailing zeroes
+   const non0Cluster = numbStr.concat("."); // append '.' trimmed by 1* operation
+   this.functionNameLocked = false;
+   return non0Cluster;
+  }
+  // For all other cases not covered above:
+  const non0Cluster = (1 * numbStr).toString();
+  this.functionNameLocked = false;
+  return non0Cluster;
+ },
+};
+/*
+  Note:
+  Input data must be a string.
+  Example how to use:
+  const data='-012.3000e-5';
+  let outcome;
+  outcome=xtract.numericPart(data);
+  console.log(outcome); // '012.3000'
+  */
+
+// mousedown calc spring btn animation
+// Grab buttons:
+function styleCaptureBtnAsCalcBtn() {
+ document.querySelector("#calc-results").style.backgroundColor = "lightgray";
+ document.querySelector("#calc-results").style.color = "darkblue";
+}
+// Do on mousedown actuation:
+function mousedownCalcBtnAnimation() {
+ // Do on button actuation
+ document.querySelector("#calc-results").style.backgroundColor = "black";
+ document.querySelector("#calc-results").style.color = "white";
+}
+document.querySelector("#calc-results").addEventListener("mousedown", () => {
+ if (blockMultipleCalcResults) {
+  return;
+ }
+ mousedownCalcBtnAnimation();
+});
+
+// Update rd object dataPoints with all captured data vaulted to localStorage:
+function updRdWithVaultedDataPoints() {
+ rd.rdOutline.dataPoints = JSON.parse(
+  window.localStorage.getItem("rdOutline")
+ );
+
+ rd.barrel.dataPoints = JSON.parse(window.localStorage.getItem("barrel"));
+
+ rd.slats.dataPoints = JSON.parse(window.localStorage.getItem("slats"));
+
+ rd.bottomBar.dataPoints = JSON.parse(
+  window.localStorage.getItem("bottomBar")
+ );
+
+ rd.spring.dataPoints = JSON.parse(window.localStorage.getItem("spring"));
+
+ rd.misc.dataPoints = JSON.parse(window.localStorage.getItem("misc"));
+
+ // Not used for Minyety version
+ /*
+rd.misc2.dataPoints=JSON.parse(window.localStorage.getItem('misc2'));
+*/
+ console.log("@@@@ Updated RD Obj: @@@@",
+  {
+   rd
+  });
+
+ /*
+const dataPagesKeys=rd.DataContainerNames;
+for (var i = 0; i < dataPagesKeys.length; i++) {
+const source=dataPagesKeys[i];
+let destination=eval("`${rd.".concat(source)  + ".dataPoints}`")
+destination=JSON.parse(window.localStorage.getItem(`${source}`));
+}
+*/
+}
+
+/* Lookup Object for RD Invariant Data*/
+const constDat = {
+scriptVersion: '2021.12.17a',//'2021.07.07a',
+ // Set to 16 for convenience
+ startingEndplateSize: 16,
+
+ intertrackGap: 0.625,
+ anglesA_Thickness: 0.375, // 2 angles
+ // outlineLRThickness: 0,
+
+ slatOverlapWithWallBetweenJamb: -8.75,
+ slatOverlapWithWallIntMount: 5.25,
+ slatOverlapWithWallExtMount: 7.25,
+
+ noWindlockThickness: 0.0,
+ curvedStampedWindlockThickness: 0.25,
+ curvedCastironWindlockThickness: 0.25,
+ flatStampedWindlockThickness: 0.5,
+ flatCastironWindlockThickness: 0.5,
+
+ noEndlockThickness: 0.0,
+ curvedNylonEndlockThickness: 0.3125,
+ curvedStampedEndlockThickness: 0.46875,
+ curvedCastironEndlockThickness: 0.25,
+
+ flatNylonEndlockThickness: 0.3125,
+ flatStampedEndlockThickness: 0.5,
+ flatCastironEndlockThickness: 0.5,
+
+ noEndlockUnitWeight: 0.0,
+ curvedNylonEndlockUnitWeight: 0.04,
+ curvedStampedEndlockUnitWeight: 0.18,
+ curvedCastironEndlockUnitWeight: 0.16,
+ flatNylonEndlockUnitWeight: 0.05,
+ flatStampedEndlockUnitWeight: 0.1406,
+ flatCastironEndlockUnitWeight: 0.213,
+
+ slatsBetweenWindlocks: 5,
+
+ noWindlockUnitWeight: 0,
+ stampedCurved1WindlockWeight: 0.213,
+ castironCurved1WindlockWeight: 0.213,
+
+ stampedFlat1WindlockWeight: 0.213,
+ castironFlat1WindlockWeight: 0.3,
+
+ // Slat material thicknesses:
+ /*
+curvedSlatThickness24G: 0.0028,
+curvedSlatThickness22G: 0.0032,
+curvedSlatThickness20G: 0.0038,
+curvedSlatThickness18G: 0.0050,
+flatSlatThickness24G:  0.0028,
+flatSlatThickness22G: 0.0032,
+flatSlatThickness20G: 0.0036,
+flatSlatThickness18G: 0.0050,
+*/
+ slatLinearInchWeight24G: 0.042285,
+ slatLinearInchWeight22G: 0.048325,
+ slatLinearInchWeight20G: 0.057386,
+ slatLinearInchWeight18G: 0.075508,
+
+ bbStopDistanceBelowEndPlate: 1.5,
+
+ endplateWallEdgeToTrackMiddle: 2,
+ /* Tube Diameter size order:
+ Smaller is 1. Larger is 6. */
+ barrelTube4inchDia: 4.5,
+ barrelTube6inchDia: 6.5,
+ barrelSmallYoyo: 6.7,
+ barrelSpiralRing: 7.75,
+ barrelBigYoyo: 8.1875,
+ barrelTube8inchDia: 8.625,
+
+ slatC_value4inchTubeCurvedSlat: 0.5357,
+ slatC_value6inchTubeCurvedSlat: 0.5455,
+ slatC_valueSmallYoyoCurvedSlat: 0.5455,
+ slatC_valueRimCurvedSlat: 0.5455,
+ slatC_valueBigYoyoCurvedSlat: 0.5417,
+ slatC_value8inchTubeCurvedSlat: 0.5455,
+
+ slatC_value4inchTubeFlatSlat: 0.5714,
+ slatC_value6inchTubeFlatSlat: 0.75,
+ slatC_valueSmallYoyoFlatSlat: 0.75,
+ slatC_valueRimFlatSlat: 0.7,
+ slatC_valueBigYoyoFlatSlat: 0.5455,
+ slatC_value8inchTubeFlatSlat: 0.5455,
+
+curvedSlatVerticalContributionCompressed: 2.75,
+ curvedSlatVerticalContributionUncompressed: 2.90,
+ 
+ flatSlatVerticalContributionCompressed: 2.6,
+ flatSlatVerticalContributionUncompressed: 2.6,
+
+ noAstragalInchLinearWeight: 0,
+ vinylAstragalLinearInchWeight: 0.02083,
+ rubberAstragalLinearInchWeight: 0.0231,
+
+ doNotUseSlidebolts: 0,
+ useSlidebolts: 2.5, //1 slidebolt lb
+
+ lowCarbSteelSpecificWeight: 0.2836,
+ highCarbSteelSpecificWeight: 0.284,
+
+ bbBeyondWallCutoutHeight: 0.5,
+
+ bbStopFlagStyleVerticalToll: 0.0,
+ bbStopFlatBarStyleVerticalToll: 1.5,
+
+ minimumInternalRollToHoodClearance: 0.75,
+
+ endPlatePossibleSizes: [13, 14, 15, 16, 17, 18, 19, 20],
+};
+
+// Establish the client's machine key
+//window.localStorage.setItem('clientMachineKey', JSON.stringify(constDat.systemMasterKey));
+/* Lookup Object for RD derived Data*/
+const calcDat = {
+ 
+ slatOverlapWithWall: 0,
+
+ endlockThicknessInUse: 0,
+
+ windlockThicknessInUse: 0,
+
+ slatTerminationThickness: 0,
+
+ slatLinearInchWeight: 0,
+
+ lowCarbSteelSpecificWeight: 0,
+
+ barrelDiameter: 0,
+ 
+ showBsResultPage: false, 
+
+ slatC_value: 0,
+
+ slatVerticalContributionUncompressed: 0,
+
+ slatVerticalContributionCompressed: 0,
+
+ oneEndlockWeight: 0,
+
+ oneWindlockWeight: 0,
+
+ oneSlideBoltWeight: 0,
+
+ astragalLinearInchWeight: 0,
+
+ // Evaluation of functions:
+ slatAssemblyWidth: 0,
+ slatWidth: 0,
+ amountOfSprings: 0,
+ oneSlatWeight: 0,
+ closedHangingHeight: 0,
+ closedHangingSlatCount: 0,
+ closedEndlocksCount: 0,
+ closedWindlocksCount: 0,
+ bbAnglesWeight: 0,
+ astragalWeight: 0,
+ slideboltsWeight: 0,
+ bbAssemblyWeight: 0,
+ closedWindlocksWeight: 0,
+ closedHangingWeight: 0,
+ lowMomentArm: 0,
+ requiredInchPound: 0,
+
+ /*
+ It is complicated.
+ Ultimately, what we really need is the exact endplate size. This along with the rd outline height are the main dependencies of the whole chain of calculations. But since we don't know the endplate size, we will use an approximate starting size to perform an initial calculation. For practical reasons, 15 is chosen as the starting size. (@1) Using this value, we will proceed to calculate an approximate bbTravel.
+     Then, (@2) we can use this approximate bbTravel to calculate an approximate rO. But since the difference between the starting endplateSize, and
+ the exact endplateSize is just a few inches, we can safely use the appropriate rO as the exact rO. We then (@3) use this rO to calculate the exactEndplateSize.
+ And from that point on, using that calculated value of endplate size, we can perform the whole chain of calculations with a high degree of accuracy.
+ Start by (@4) recalculating exactHGoal
+ */
+
+ // startingEndplateSize: 15.5, located in constDat
+ adjDueToCompressedAndWrappedSlats: 0,
+ approximateHGoal: 0,
+ exactEndplateSize: 0,
+ exactHGoal: 0,
+
+ rO: 0,
+ dR: 0,
+
+ springDataSetToUse: null,
+ selectedWireDiam: 0,
+ selectedWireColor: "",
+
+ openHangingHeight: 0,
+ openHangingSlatCount: 0,
+ openEndlocksCount: 0,
+ openHangingWeight: 0,
+
+ ippt: 0,
+ springLength: 0,
+
+ amountOfCoils: 0,
+ internalDiameter: 0,
+ springWeight: 0,
+
+ // numCruncherErrorFlag: null
+};
+
+// Hardcode the client's machine key in the script
+// calcDat.scriptHardcodedKey=JSON.parse(window.localStorage.getItem('clientMachineKey'));
+
+//document.querySelector('#password').innerText=calcDat.scriptHardcodedKey;
+
+// Post data entry error message:
+let errorStack = [];
+function numCruncherError(
+ errMssg = "ERROR! WRONG DATA ENTERED ON AN INPUT FORM!!") {
+ errorStack.push(errMssg);
+ // calcDat.numCruncherErrorFlag=true;
+ // Display error to console
+ // console.log(`${errMssg}`, 'errorStack: ', {errorStack});
+}
+
+// Use updated rd obj to generate calcDat obj:
+
+function buildCalcDat1() {
+ // SPRING INTERNAL DIAMETER
+ calcDat.internalDiameter = rd.spring.dataPoints.intDia;
+
+ // AMOUNT OF SPRINGS
+ calcDat.amountOfSprings = rd.spring.dataPoints.amountOfSprings;
+ console.log('amountOfSprings: ', calcDat.amountOfSprings);
+}
+
+function buildCalcDat2 () {
+ // SLAT OVERLAP WITH WALL
+ // This Minyety version does not use the mounting style data.
+ // Unused mounting style object
+ calcDat.outlineLRThickness =
+ constDat.intertrackGap + constDat.anglesA_Thickness;
+
+ /*
+ // original calcDat builder code snippet:
+if(rd.misc2.dataPoints.mounting===0) {
+ // BJ mount
+  calcDat.slatOverlapWithWall=constDat.slatOverlapWithWallBetweenJamb;
+}else if(rd.misc2.dataPoints.mounting===1) {
+ // Interior mount
+ calcDat.slatOverlapWithWall=constDat.slatOverlapWithWallIntMount;
+}else if(rd.misc2.dataPoints.mounting===2){
+ // Exterior mount
+calcDat.slatOverlapWithWall=constDat.slatOverlapWithWallExtMount;
+ }else{
+ // Invalid slat mounting entry
+numCruncherError('Invalid mounting style entry');
+ }
+ */
+
+ // ENDLOCK THICKNESS IN USE
+ if (rd.misc.dataPoints.endlockStyle === 0) {
+  // Not using endlocks
+  calcDat.endlockThicknessInUse = constDat.noEndlockThickness;
+ } else {
+  // Using some endlock style
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.slats.dataPoints.slatStyle === 1) {
+   // Using curved slat
+   // @@@@@@@@@@@@@@@@@@@@@@@@
+   // Endndlock thickness for curved slat
+   if (rd.misc.dataPoints.endlockStyle === 1) {
+    // Nylon endlock style
+    calcDat.endlockThicknessInUse = constDat.curvedNylonEndlockThickness;
+   } else if (rd.misc.dataPoints.endlockStyle === 2) {
+    // Stamped endlock style
+    calcDat.endlockThicknessInUse = constDat.curvedStampedEndlockThickness;
+   } else if (rd.misc.dataPoints.endlockStyle === 3) {
+    // castiron endlock style
+    calcDat.endlockThicknessInUse = constDat.curvedCastironEndlockThickness;
+   } else {
+    // Invalid endlock style entry
+    numCruncherError("Invalid endlock style entry 2");
+   }
+  } else if (rd.slats.dataPoints.slatStyle === 2) {
+   // Using flat slat
+   // @@@@@@@@@@@@@@@@@@@@@@@@
+   // Endndlock thickness for flat slat
+   if (rd.misc.dataPoints.endlockStyle === 1) {
+    // Nylon endlock style
+    calcDat.endlockThicknessInUse = constDat.flatNylonEndlockThickness;
+   } else if (rd.misc.dataPoints.endlockStyle === 2) {
+    // Stamped endlock style
+    calcDat.endlockThicknessInUse = constDat.flatStampedEndndlockThickness;
+   } else if (rd.misc.dataPoints.endlockStyle === 3) {
+    // castiron endlock style
+    calcDat.endlockThicknessInUse = constDat.flatCastironEndlockThickness;
+   } else {
+    // Invalid endlock style entry
+    numCruncherError("Invalid endlock style entry 4");
+   }
+  } else {
+   // Invalid slat style entry
+   numCruncherError("Invalid slat style entry");
+  }
+ }
+
+ // WINDLOCK THICKNESS IN USE
+ if (rd.misc.dataPoints.windlockStyle === 0) {
+  // Not using windlocks
+  calcDat.windlockThicknessInUse = constDat.noWindlockThickness;
+ } else {
+  // Using some windlock style
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.slats.dataPoints.slatStyle === 1) {
+   // Using curved slat
+   // @@@@@@@@@@@@@@@@@@@@@@@@
+   // Windlock thickness for curved slat
+   if (rd.misc.dataPoints.windlockStyle === 1) {
+    // Stamped windlock style
+    calcDat.windlockThicknessInUse =
+    constDat.curvedStampedWindlockThickness;
+   } else if (rd.misc.dataPoints.windlockStyle === 2) {
+    // castiron windlock style
+    calcDat.windlockThicknessInUse =
+    constDat.curvedCastironWindlockThickness;
+   } else {
+    // Invalid windlock style entry
+    numCruncherError("Invalid windlock style entry 2");
+   }
+  } else if (rd.slats.dataPoints.slatStyle === 2) {
+   // Using flat slat
+   // @@@@@@@@@@@@@@@@@@@@@@@@
+   // Windlock thickness for flat slat
+   if (rd.misc.dataPoints.windlockStyle === 1) {
+    // Stamped windlock style
+    calcDat.windlockThicknessInUse = constDat.flatStampedWindlockThickness;
+   } else if (rd.misc.dataPoints.windlockStyle === 2) {
+    // castiron windlock style
+    calcDat.windlockThicknessInUse = constDat.flatCastironWindlockThickness;
+   } else {
+    // Invalid windlock style entry
+    numCruncherError("Invalid windlock style entry 4");
+   }
+  } else {
+   // Invalid slat style entry
+   numCruncherError("Invalid slat style entry");
+  }
+ }
+
+ // SLAT TERMINATION THICKNESS
+ // @@@@@@@@@@@@@@@@@@@@@@@@
+ if (calcDat.windlockThicknessInUse >= calcDat.endlockThicknessInUse) {
+  calcDat.slatTerminationThickness = calcDat.windlockThicknessInUse;
+ } else {
+  calcDat.slatTerminationThickness = calcDat.endlockThicknessInUse;
+ }
+
+ // ONE ENDLOCK WEIGHT
+ // @@@@@@@@@@@@@@@@@@@@@@@@
+ if (rd.slats.dataPoints.slatStyle === 1) {
+  // Using curved slat
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  // Not using windlock
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.misc.dataPoints.endlockStyle === 0) {
+   // Don't use endlocks
+   calcDat.oneEndlockWeight = constDat.noEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 1) {
+   // Use nylon endlocks1
+   calcDat.oneEndlockWeight = constDat.curvedNylonEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 2) {
+   // Use stamped endlocks1
+   calcDat.oneEndlockWeight = constDat.curvedStampedEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 3) {
+   // Use iron endlocks
+   calcDat.oneEndlockWeight = constDat.curvedCastironEndlockUnitWeight;
+  } else {
+   // Invalid endlock style entry
+   numCruncherError("Invalid endlock style entry 6");
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+ } else if (rd.slats.dataPoints.slatStyle === 2) {
+  // Using flat slat
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  // Not using windlock
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.misc.dataPoints.endlockStyle === 0) {
+   // Don't use endlocks
+   calcDat.oneEndlockWeight = constDat.noEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 1) {
+   // Use nylon endlocks
+   calcDat.oneEndlockWeight = constDat.flatNylonEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 2) {
+   // Use stamped endlocks
+   calcDat.oneEndlockWeight = constDat.flatStampedEndlockUnitWeight;
+  } else if (rd.misc.dataPoints.endlockStyle === 3) {
+   // Use iron endlocks
+   calcDat.oneEndlockWeight = constDat.flatCastironEndlockUnitWeight;
+  } else {
+   // Invalid endock style entry
+   numCruncherError("Invalid endock style entry 4");
+  }
+ } else {
+  // Invalid slat style entry
+  numCruncherError("Invalid slat style entry");
+ }
+
+ // ONE WINDLOCK WEIGHT
+ // @@@@@@@@@@@@@@@@@@@@@@@@
+ if (rd.slats.dataPoints.slatStyle === 1) {
+  // Using curved slat
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.misc.dataPoints.windlockStyle === 0) {
+   // Not using windlock
+   calcDat.oneWindlockWeight = constDat.noWindlockUnitWeight;
+  } else if (rd.misc.dataPoints.windlockStyle === 1) {
+   // Using stamped windlock
+   calcDat.oneWindlockWeight = constDat.stampedCurved1WindlockWeight;
+  } else if (rd.misc.dataPoints.windlockStyle === 2) {
+   // Using castiron windlock
+   calcDat.oneWindlockWeight = constDat.castironCurved1WindlockWeight;
+  } else {
+   // Invalid slat style entry
+   numCruncherError("Invalid windlock style entry 5");
+  }
+ } else if (rd.slats.dataPoints.slatStyle === 2) {
+  // Using flat slat
+  // @@@@@@@@@@@@@@@@@@@@@@@@
+  if (rd.misc.dataPoints.windlockStyle === 0) {
+   // Not using windlock
+   calcDat.oneWindlockWeight = constDat.noWindlockUnitWeight;
+  } else if (rd.misc.dataPoints.windlockStyle === 1) {
+   // Using stamped windlock
+   calcDat.oneWindlockWeight = constDat.stampedFlat1WindlockWeight;
+  } else if (rd.misc.dataPoints.windlockStyle === 2) {
+   // Using castiron windlock
+   calcDat.oneWindlockWeight = constDat.castironFlat1WindlockWeight;
+  } else {
+   // Invalid slat style entry
+   numCruncherError("Invalid windlock style entry 6");
+  }
+ } else {
+  // Invalid slat style entry
+  numCruncherError("Invalid slat style entry");
+ }
+
+ // SLAT LINEAR INCH WEIGHT
+ if (rd.slats.dataPoints.thickness === 1) {
+  calcDat.slatLinearInchWeight = constDat.slatLinearInchWeight24G;
+ } else if (rd.slats.dataPoints.thickness === 2) {
+  calcDat.slatLinearInchWeight = constDat.slatLinearInchWeight22G;
+ } else if (rd.slats.dataPoints.thickness === 3) {
+  calcDat.slatLinearInchWeight = constDat.slatLinearInchWeight20G;
+ } else if (rd.slats.dataPoints.thickness === 4) {
+  calcDat.slatLinearInchWeight = constDat.slatLinearInchWeight18G;
+ } else {
+  // Invalid slat gauge entry
+  numCruncherError("Invalid slat gauge entry");
+ }
+
+ // BARREL DIAMETER
+ // Tube Diameter size order: Smaller is 1. Larger is 6.
+ if (rd.barrel.dataPoints.barrelStyle === 1) {
+  // 4 inch tube diameter choice
+  calcDat.barrelDiameter = constDat.barrelTube4inchDia;
+ } else if (rd.barrel.dataPoints.barrelStyle === 2) {
+  // 6 inch tube diameter choice
+  calcDat.barrelDiameter = constDat.barrelTube6inchDia;
+ } else if (rd.barrel.dataPoints.barrelStyle === 3) {
+  
+  // Small yoyo tube diameter choice
+  //calcDat.barrelDiameter = constDat.barrelSmallYoyo;
+  numCruncherError(' Sorry. Small yoyo not supported for this software version.');
+ } else if (rd.barrel.dataPoints.barrelStyle === 4) {
+  // Spiral ring choice
+  calcDat.barrelDiameter = constDat.barrelSpiralRing;
+ } else if (rd.barrel.dataPoints.barrelStyle === 5) {
+// NOP
+  // Big yoyo tube diameter choice
+  calcDat.barrelDiameter = constDat.barrelBigYoyo;
+  // numCruncherError(' Sorry. Big yoyo not supported for this software version.');
+ } else if (rd.barrel.dataPoints.barrelStyle === 6) {
+  // 8 inch tube diameter choice
+  calcDat.barrelDiameter = constDat.barrelTube8inchDia;
+ } else {
+  // Invalid barrel style
+  numCruncherError("Invalid barrel style");
+ }
+
+ // SLAT "C" VALUE
+ if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 1
+ ) {
+  calcDat.slatC_value = constDat.slatC_value4inchTubeCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 2
+ ) {
+  calcDat.slatC_value = constDat.slatC_value6inchTubeCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 3
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueSmallYoyoCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 4
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueRimCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 5
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueBigYoyoCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 1 &&
+  rd.barrel.dataPoints.barrelStyle === 6
+ ) {
+  calcDat.slatC_value = constDat.slatC_value8inchTubeCurvedSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 1
+ ) {
+  calcDat.slatC_value = constDat.slatC_value4inchTubeFlatSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 2
+ ) {
+  calcDat.slatC_value = constDat.slatC_value6inchTubeFlatSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 3
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueSmallYoyoFlatSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 4
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueRimFlatSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 5
+ ) {
+  calcDat.slatC_value = constDat.slatC_valueBigYoyoFlatSlat;
+ } else if (
+  rd.slats.dataPoints.slatStyle === 2 &&
+  rd.barrel.dataPoints.barrelStyle === 6
+ ) {
+  calcDat.slatC_value = constDat.slatC_value8inchTubeFlatSlat;
+ } else {
+  // Invalid slat, or barrel style
+  numCruncherError("Either, invalid slat or barrel style");
+ }
+
+ // SLAT VERTICAL CONTRIBUTION UNCOMPRESSED
+ if (rd.slats.dataPoints.slatStyle === 1) {
+  calcDat.slatVerticalContributionUncompressed = constDat.curvedSlatVerticalContributionUncompressed;
+ } else if (rd.slats.dataPoints.slatStyle === 2) {
+  calcDat.slatVerticalContributionUncompressed = constDat.flatSlatVerticalContributionUncompressed;
+ } else {
+  // Invalid slat style
+  numCruncherError("Invalid slat style");
+ }
+
+ // SLAT VERTICAL CONTRIBUTION COMPRESSED
+ if (rd.slats.dataPoints.slatStyle === 1) {
+  calcDat.slatVerticalContributionCompressed = constDat.curvedSlatVerticalContributionCompressed;
+ } else if (rd.slats.dataPoints.slatStyle === 2) {
+  calcDat.slatVerticalContributionCompressed = constDat.flatSlatVerticalContributionCompressed;
+ } else {
+  // Invalid slat style
+  numCruncherError("Invalid slat style");
+ }
+
+ // ASTRAGAL LINEAR INCH WEIGHT
+ if (rd.misc.dataPoints.astragalStyle === 0) {
+  calcDat.astragalLinearInchWeight = constDat.noAstragalInchLinearWeight;
+ } else if (rd.misc.dataPoints.astragalStyle === 1) {
+  calcDat.astragalLinearInchWeight = constDat.vinylAstragalLinearInchWeight;
+ } else if (rd.misc.dataPoints.astragalStyle === 2) {
+  calcDat.astragalLinearInchWeight = constDat.rubberAstragalLinearInchWeight;
+ } else {
+  // Invalid astragal style
+  numCruncherError("Invalid astragal style");
+ }
+
+ // ONE SLIDEBOLT WEIGHT
+ if (rd.misc.dataPoints.slideBoltsStyle === 0) {
+  calcDat.oneSlideBoltWeight = constDat.doNotUseSlidebolts;
+ } else if (rd.misc.dataPoints.slideBoltsStyle === 1) {
+  calcDat.oneSlideBoltWeight = constDat.useSlidebolts;
+ } else {
+  // Invalid slidebolts style
+  numCruncherError("Invalid slidebolts style");
+ }
+
+ // BOTTOM BAR VERTICAL TRAVEL (exactHGoal)
+ // Original formula:
+ /*
+calcDat.exactHGoal=rd.rdOutline.dataPoints.height + constDat.bbBeyondWallCutoutHeight;
+*/
+ // Minyety version formula:
+ // (@1)
+ console.log('startingEndplateSize: ', constDat.startingEndplateSize);
+
+ calcDat.approximateHGoal =
+ rd.rdOutline.dataPoints.height -
+ constDat.startingEndplateSize -
+ constDat.bbStopDistanceBelowEndPlate;
+ console.log('approximateHGoal: ', calcDat.approximateHGoal);
+ 
+ // low Carb Steel Specific Weight
+ calcDat.lowCarbSteelSpecificWeight =
+ constDat.lowCarbSteelSpecificWeight;
+ console.log('lowCarbSteelSpecificWeight: ', calcDat.lowCarbSteelSpecificWeight);
+
+ console.log("constDat: ", {
+  constDat
+ });
+ console.log("buildCalcDat(): ", {
+  calcDat
+ });
+ console.log("errorStack: ", {
+  errorStack
+ });
+}
+/* END OF buildCalcDat() */
+
+function adjDueToCompressedAndWrappedSlats () {
+/*To determine the correct rO, we need to know the correct amount of slats that will comprise the whole curtain. This amount of slats is not the same as the closed hanging amount of slats for various reasons:
+1. The closed hanging slats vertical contribution is higher because curtain is uncompressed from the floor level all the way to the contact point with the barrel. We have to use the uncompressed state for torsion spring determination.
+2. However, in practice curtain is compressed when closed for security reasons. 
+3. There are also additional slats beyond the point of contact with the barrel to wrap curtain on top of the barrel. 
+All of that means building the curtain with more slats,resulting in larger rO value.
+We adjust by adding a correction amount to the hGoal parameter in the calcRoDrForHgoal function. For compensation calculations we will assume 66% of hanging curtain will compress in the closed state.
+*/
+ // §
+ const amountOfCompressedSlats=
+(0.66*(rd.rdOutline.dataPoints.height-(0.5*constDat.startingEndplateSize)) )/calcDat.slatVerticalContributionUncompressed;
+console.log('rd.rdOutline.dataPoints.height', rd.rdOutline.dataPoints.height, 'constDat.startingEndplateSize', constDat.startingEndplateSize, 'calcDat.slatVerticalContributionUncompressed' , calcDat.slatVerticalContributionUncompressed);
+
+const compressedVsUncompressedDifferential=amountOfCompressedSlats*(calcDat.slatVerticalContributionUncompressed-calcDat.slatVerticalContributionCompressed);
+
+const lengthOfSlatsWrappedOnTopOfBarrel=0.5*Math.PI*(calcDat.barrelDiameter+calcDat.slatC_value);
+
+const hGoalAdjustment=compressedVsUncompressedDifferential+
+lengthOfSlatsWrappedOnTopOfBarrel;
+
+calcDat.adjDueToCompressedAndWrappedSlats=hGoalAdjustment;
+console.log('adjDueToCompressedAndWrappedSlats)() function values: ', 'amountOfCompressedSlats: ', amountOfCompressedSlats, 'compressedVsUncompressedDifferential',compressedVsUncompressedDifferential
+, 'lengthOfSlatsWrappedOnTopOfBarrel',lengthOfSlatsWrappedOnTopOfBarrel, 'calcDat.adjDueToCompressedAndWrappedSlats',calcDat.adjDueToCompressedAndWrappedSlats);
+}
+
+function accountForAmountOfSprings () {
+ if (errorStack.length !== 0) {
+  // on error do nothing
+  return;
+ } else {
+  // Half all weight contributor Items
+  const n = calcDat.amountOfSprings;
+
+  calcDat.slatLinearInchWeight = calcDat.slatLinearInchWeight / n;
+
+  calcDat.oneEndlockWeight = calcDat.oneEndlockWeight / n;
+
+  calcDat.oneWindlockWeight = calcDat.oneWindlockWeight / n;
+
+  calcDat.lowCarbSteelSpecificWeight = calcDat.lowCarbSteelSpecificWeight / n;
+
+  calcDat.oneSlideBoltWeight = calcDat.oneSlideBoltWeight / n;
+
+  calcDat.astragalLinearInchWeight = calcDat.astragalLinearInchWeight / n;
+ }
+}
+
+/* CLOSED ASSEMBLY CALCULATIONS */
+// Slat width
+function slatAssemblyWidth() {
+ const assembledSlatWidth =
+ rd.rdOutline.dataPoints.width - calcDat.outlineLRThickness;
+ calcDat.slatAssemblyWidth = assembledSlatWidth;
+ console.log("slatAssemblyWidth(): ", {
+  assembledSlatWidth
+ });
+ return assembledSlatWidth;
+}
+
+function slatWidth() {
+ const widthOfSlat =
+ calcDat.slatAssemblyWidth - 2 * calcDat.slatTerminationThickness;
+ calcDat.slatWidth = widthOfSlat;
+ console.log("slatWidth(): ", {
+  widthOfSlat
+ });
+ return widthOfSlat;
+}
+
+function oneSlatWeight() {
+ const oneSlatPounds = calcDat.slatLinearInchWeight * calcDat.slatWidth;
+ calcDat.oneSlatWeight = oneSlatPounds;
+ console.log("oneSlatWeight(): ", {
+  oneSlatPounds
+ });
+ return oneSlatPounds;
+}
+
+// Implementation of nth row of lookup table:
+const nthTableRow = {
+ stepNum: 0,
+ theta: 0,
+ sigma: 0,
+ rO: 0,
+ deltaTheta: 0,
+ sArc: 0,
+ degr: 0,
+ dR: 0,
+ h: 0,
+};
+
+// Global table row variables
+let stepNum = -1;
+let theta;
+let sigma;
+let rO;
+let deltaTheta;
+let sArc;
+let degr;
+let dR;
+let h;
+
+const stepsProgression = [];
+
+function rotate1Increment() {
+ if (stepNum === -1) {
+  stepNum = 0;
+  nthTableRow.stepNum = stepNum;
+ } else {
+  nthTableRow.stepNum++;
+ }
+ stepsProgression.push(nthTableRow.stepNum);
+}
+
+const bbTravelProgress = [];
+
+function buildNthRowOfLukUpTable(angularStep = nthTableRow.stepNum) {
+ // Initial values:
+ const r0 = calcDat.barrelDiameter / 2;
+ const a = calcDat.slatC_value / (2 * Math.PI);
+ const thetaInit =
+ ((2 * r0 + calcDat.slatC_value) * Math.PI) / calcDat.slatC_value;
+ const sigmaInit = Math.sqrt(1 + thetaInit * thetaInit);
+ const arcInit =
+ (a * (thetaInit * sigmaInit + Math.log(thetaInit + sigmaInit))) / 2;
+ theta = thetaInit + (5 * Math.PI * (angularStep)) / 180;
+ nthTableRow.theta = theta;
+
+ sigma = Math.sqrt(1 + nthTableRow.theta * nthTableRow.theta);
+ nthTableRow.sigma = sigma;
+
+ rO = a * nthTableRow.theta;
+ nthTableRow.rO = rO;
+
+ deltaTheta = nthTableRow.theta - thetaInit;
+ nthTableRow.deltaTheta = deltaTheta;
+
+ sArc =
+ (a *
+  (nthTableRow.theta * nthTableRow.sigma +
+   Math.log(nthTableRow.theta + nthTableRow.sigma))) /
+ 2;
+ nthTableRow.sArc = sArc;
+
+ degr = (180 * nthTableRow.deltaTheta) / Math.PI;
+ nthTableRow.degr = degr;
+
+ dR = nthTableRow.deltaTheta / (2 * Math.PI);
+ nthTableRow.dR = dR;
+
+ h = nthTableRow.sArc - arcInit;
+ nthTableRow.h = h;
+
+ // bbTravelProgress.push(nthTableRow.h);
+}
+
+function fineTunner(goalValue) {
+
+ console.log('fineTunner goal: ', goalValue+calcDat.adjDueToCompressedAndWrappedSlats);
+
+ for (let i = 0; i < bbTravelProgress.length; i++) {
+  if (bbTravelProgress[i] > goalValue+calcDat.adjDueToCompressedAndWrappedSlats) {
+   const ithTableRow = stepsProgression[i];
+  
+   buildNthRowOfLukUpTable(ithTableRow-1);
+   console.log('ithTableRow', nthTableRow);
+   // Write out result
+   calcDat.rO = nthTableRow.rO;
+   calcDat.dR = nthTableRow.dR;
+
+   console.log(`💪 Success! Found rO ${
+    Math.round(10000 * calcDat.rO) / 10000} and dR ${Math.round(10000 * calcDat.dR) / 10000} , For hTestValue ${Math.round(10000 * nthTableRow.h) / 10000} iteration ${ithTableRow-1}`);
+   break;
+  } else {
+   // NOP
+  }
+ }
+}
+
+const dRProgress = [];
+// (@2)
+function calcRoDrForHgoal (bbTravel = calcDat.approximateHGoal) {
+
+ console.log('calcRoDrForHgoal Algorithm bbTravel: ', bbTravel+calcDat.adjDueToCompressedAndWrappedSlats);
+
+ while (nthTableRow.stepNum < 1500) {
+ 
+  rotate1Increment();
+  buildNthRowOfLukUpTable();
+  bbTravelProgress.push(nthTableRow.h);
+  dRProgress.push(nthTableRow.dR);
+
+  const hTestValue = bbTravelProgress[bbTravelProgress.length];
+
+  if (nthTableRow.h >= bbTravel+calcDat.adjDueToCompressedAndWrappedSlats) {
+
+   // Write out result
+   calcDat.rO = nthTableRow.rO;
+   calcDat.dR = nthTableRow.dR;
+   console.log(`💪 Success! Found rO ${
+    Math.round(10000 * calcDat.rO) / 10000} and dR ${Math.round(10000 * calcDat.dR) / 10000} , For hTestValue ${Math.round(10000 * nthTableRow.h) / 10000}`);
+   break;
+  }
+ }
+ 
+ if (nthTableRow.stepNum >= 1500) {
+  numCruncherError("Excessive algorithm iterations.");
+  console.log("☹️ Excessive algorithm iterations.");
+ } else {
+  console.log('stepsProgression: ', stepsProgression);
+
+  console.log('bbTravelProgress: ', bbTravelProgress);
+
+  console.log('dRProgress: ', dRProgress);
+ }
+
+}
+
+/*
+  else {
+ if (nthTableRow.stepNum >= 5050) {
+   errorStack.push("☹️ Excessive algorithm iterations.");
+   console.log("☹️ Excessive algorithm iterations.");
+   break;
+  }
+  */
+
+// (@3)
+function exactEndplateSize () {
+ const minPlateSize =
+ 2 * calcDat.rO;
+ calcDat.minPlateSize = minPlateSize;
+ console.log("minPlateSize: ", `${minPlateSize}`);
+
+ let forLoopSuccesful = false;
+ const maxIterations = constDat.endPlatePossibleSizes.length;
+ let i = 0;
+ for (i; i < maxIterations; i++) {
+  if (constDat.endPlatePossibleSizes[i] >= (2 * constDat.minimumInternalRollToHoodClearance + minPlateSize)) { // corrected min endplateSize adding gap
+   calcDat.exactEndplateSize = constDat.endPlatePossibleSizes[i];
+   forLoopSuccesful = true;
+   break;
+  }
+ } // end of for-loop
+ if (!forLoopSuccesful) {
+  // Push to error stack
+  numCruncherError("Curtain roll too large for available endplate sizes");
+ } else {
+  // Vault exactEndplateSize for usage by band screen Optimizer 
+  window.localStorage.setItem('exactEndplateSize', JSON.stringify(calcDat.exactEndplateSize));
+  console.log('exactEndplateSize', calcDat.exactEndplateSize);
+ }
+}
+// (@4)
+function exactHGoal () {
+ const exactHGoal =
+ rd.rdOutline.dataPoints.height -
+ calcDat.exactEndplateSize -
+ constDat.bbStopDistanceBelowEndPlate;
+
+ calcDat.exactHGoal = exactHGoal;
+ console.log('exactHGoal(): ', calcDat.exactHGoal);
+ return exactHGoal;
+}
+
+// start of CALCS FOR OPEN CURTAIN:
+function openHangingHeight() {
+ const a =
+ constDat.bbStopDistanceBelowEndPlate + 0.5 * calcDat.exactEndplateSize;
+
+ const b =
+ 0.5 * calcDat.exactEndplateSize -
+ constDat.endplateWallEdgeToTrackMiddle -
+ calcDat.rO;
+ const d = a * a + b * b;
+ const linearHeight = Math.sqrt(d);
+ /*
+const linearHeight=Math.sqrt(
+ (calcDat.exactEndplateSize/2)^2 + ((calcDat.exactEndplateSize/2) - 1.5)^2
+ );
+ */
+ calcDat.openHangingHeight = linearHeight;
+ console.log(`openHangingHeight(): ${linearHeight}, for exactEndplateSize ${calcDat.exactEndplateSize}, rO: ${calcDat.rO} and dR ${calcDat.dR}`);
+ return linearHeight;
+}
+
+function openHangingSlatCount() {
+ // Substract 1 that belongs to the BB
+ const slatCount =
+ calcDat.openHangingHeight / calcDat.slatVerticalContributionUncompressed;
+
+ calcDat.openHangingSlatCount = slatCount;
+ console.log("openHangingSlatCount(): ", {
+  slatCount
+ });
+
+ return slatCount;
+}
+
+function openEndlocksCount() {
+ let endlocksCount;
+
+ let roundedOffSlatCnt = Math.round(calcDat.openHangingSlatCount);
+ // If slat count even
+ if (roundedOffSlatCnt % 2 === 0) {
+  endlocksCount = roundedOffSlatCnt;
+ } else {
+  // If slat count odd
+  endlocksCount = roundedOffSlatCnt + 1;
+ }
+
+ calcDat.openEndlocksCount = endlocksCount;
+ console.log("openEndlocksCount(): ", {
+  endlocksCount
+ });
+ return endlocksCount;
+}
+
+function openHangingWeight() {
+ const hangingWeight =
+ calcDat.openHangingSlatCount * calcDat.oneSlatWeight +
+ calcDat.openEndlocksCount * calcDat.oneEndlockWeight +
+ calcDat.bbAssemblyWeight;
+
+ calcDat.openHangingWeight = hangingWeight;
+ console.log("openHangingWeight(): ", {
+  hangingWeight
+ });
+
+ return hangingWeight;
+}
+// end of CALCS FOR OPEN CURTAIN:
+
+function closedHangingHeight() {
+ // Upper end of track to tube attachment
+ const a =
+ constDat.bbStopDistanceBelowEndPlate +
+ 0.5 * calcDat.exactEndplateSize;
+
+ const b =
+ 0.5 * calcDat.exactEndplateSize -
+ constDat.endplateWallEdgeToTrackMiddle -
+ (calcDat.slatC_value + calcDat.barrelDiameter) / 2;
+
+ const d = (a * a) + (b * b);
+
+ const c = Math.sqrt(d);
+
+ const linearHeight =
+ /*
+ Math.PI()*(calcDat.barrelDiameter + slatC_value/2)/2 + // Not used for closed hanging weight.
+ */
+ c +
+ // Darío formula:
+ calcDat.exactHGoal;
+
+ /* (rd.rdOutline.dataPoints.height -
+      constDat.exactEndplateSize -
+      constDat.bbStopDistanceBelowEndPlate);
+      */
+ // original formula:
+ //(rd.rdOutline.dataPoints.height + constDat.bbBeyondWallCutoutHeight);
+
+ calcDat.closedHangingHeight = linearHeight;
+
+ console.log(`closedHangingHeight(): ${calcDat.closedHangingHeight}, for exactEndplateSize ${calcDat.exactEndplateSize}, and exactHGoal ${calcDat.exactHGoal}`);
+
+ return linearHeight;
+}
+
+function closedHangingSlatCount() {
+ // Substract 1 that belongs to the BB
+ const slatCount =
+ calcDat.closedHangingHeight / calcDat.slatVerticalContributionUncompressed;
+
+ calcDat.closedHangingSlatCount = slatCount;
+ console.log("closedHangingSlatCount(): ", {
+  slatCount
+ });
+ return slatCount;
+}
+
+function closedEndlocksCount() {
+ let endlocksCount;
+ let roundedOffSlatCnt = Math.round(calcDat.closedHangingSlatCount);
+ // If slat count even
+ if (roundedOffSlatCnt % 2 === 0) {
+  endlocksCount = roundedOffSlatCnt;
+ } else {
+  // If slat count odd
+  endlocksCount = roundedOffSlatCnt + 1;
+ }
+
+ calcDat.closedEndlocksCount = endlocksCount;
+ console.log("closedEndlocksCount(): ", {
+  endlocksCount
+ });
+ return endlocksCount;
+}
+
+function closedWindlocksCount() {
+ const closedWindlocksCount =
+ (2 * (calcDat.closedHangingSlatCount - calcDat.openHangingSlatCount - 1)) /
+ 6;
+ console.log("closedWindlocksCount: ", {
+  closedWindlocksCount
+ });
+ calcDat.closedWindlocksCount = closedWindlocksCount;
+}
+
+function bbAnglesWeight() {
+ /*
+ console.log('bbAngleVerticalSide', `${rd.bottomBar.dataPoints.bbAngleVerticalSide}`,'bbAngleHorizontalSide', `${rd.bottomBar.dataPoints.bbAngleHorizontalSide}`,'bbAngleThickness', `${rd.bottomBar.dataPoints.bbAngleThickness}`,'bbAnglesAmount', `${rd.bottomBar.dataPoints.bbAnglesAmount}`,'slatWidth', `${calcDat.slatWidth}`);
+ */
+ const oneAngleVolume =
+ (rd.bottomBar.dataPoints.bbAngleVerticalSide *
+  rd.bottomBar.dataPoints.bbAngleThickness +
+  (rd.bottomBar.dataPoints.bbAngleHorizontalSide -
+   rd.bottomBar.dataPoints.bbAngleThickness) *
+  rd.bottomBar.dataPoints.bbAngleThickness) *
+ calcDat.slatWidth;
+ const bbAnglesWeight =
+ oneAngleVolume *
+ rd.bottomBar.dataPoints.bbAnglesAmount *
+ calcDat.lowCarbSteelSpecificWeight;
+
+ calcDat.bbAnglesWeight = bbAnglesWeight;
+ console.log("bbAnglesWeight(): ", {
+  bbAnglesWeight
+ });
+ return bbAnglesWeight;
+}
+
+function astragalWeight() {
+ const astragalWeight = calcDat.astragalLinearInchWeight * calcDat.slatWidth;
+
+ calcDat.astragalWeight = astragalWeight;
+ console.log("astragalWeight(): ", {
+  astragalWeight
+ });
+ return astragalWeight;
+}
+
+function slideboltsWeight() {
+ const slideboltsWeight = calcDat.oneSlideBoltWeight * 2;
+
+ calcDat.slideboltsWeight = slideboltsWeight;
+ console.log("slideBoltsWeight(): ", {
+  slideboltsWeight
+ });
+ return slideboltsWeight;
+}
+
+// Weight of bottom Bar assembly:
+function bbAssemblyWeight() {
+ const bbWeight =
+ calcDat.bbAnglesWeight + calcDat.astragalWeight + calcDat.slideboltsWeight;
+
+ calcDat.bbAssemblyWeight = bbWeight;
+ console.log("bbAssemblyWeight(): ", {
+  bbWeight
+ });
+ return bbWeight;
+}
+
+// Weight of closed curtain assembly
+function closedHangingWeight() {
+ const hangingWeight =
+ calcDat.closedHangingSlatCount * calcDat.oneSlatWeight +
+ calcDat.closedEndlocksCount * calcDat.oneEndlockWeight +
+ calcDat.closedWindlocksCount * calcDat.oneWindlockWeight +
+ calcDat.bbAssemblyWeight;
+
+ const closedWindlocksWeight = calcDat.closedWindlocksCount * calcDat.oneWindlockWeight;
+ calcDat.closedWindlocksWeight = closedWindlocksWeight;
+ console.log("closedWindlocksWeight: ",
+  closedWindlocksWeight);
+
+ calcDat.closedHangingWeight = hangingWeight;
+ 
+ // vault for Band Spring Selector script usage
+ window.localStorage.setItem('rdClosedWeight', JSON.stringify(calcDat.closedHangingWeight));
+ window.localStorage.setItem('rdOutlineHeight', JSON.stringify(rd.rdOutline.dataPoints.height));
+ 
+ console.log("closedHangingWeight(): ", {
+  hangingWeight
+ });
+
+ return hangingWeight;
+}
+
+// Low moment arm rc (arm when door closed)
+function lowMomentArm() {
+ const lMArm = (calcDat.barrelDiameter + calcDat.slatC_value) / 2;
+
+ calcDat.lowMomentArm = lMArm;
+ console.log("lowMomentArm(): ", {
+  lMArm
+ });
+ return lMArm;
+}
+
+function requiredInchPound() {
+ const closedInchPounds = calcDat.lowMomentArm * calcDat.closedHangingWeight;
+
+ calcDat.requiredInchPound = closedInchPounds;
+ console.log("requiredInchPound(): ", {
+  closedInchPounds
+ });
+
+ return closedInchPounds;
+}
+
+// Revolutions of barrel dR
+
+// high moment arm
+
+/* THE SPRING WIRE DIA SELECTOR */
+/*
+For the mainTemplate pages, the behavior of the capture Btn is to:
+1) read inputs,
+2) normalize to inches,
+3) save array of inches as dstumValues to the activeObject
+4) combine datumKeys with datum values to build the dataPoints object in the activeObj.
+This will change for the resultTemplate. The procedure will be to only perform 4th step, and last step (5) will be to write dataPoints values to the active page.
+*/
+// Spring data; [inch-pound, wire-diameter]
+const optimalMaxInchPound = [
+ [52, 0.125, null],
+ [65, 0.135, null],
+ [75, 0.142, null],
+ [93, 0.1562, null],
+ [107, 0.162, null],
+ [119, 0.17, null],
+ [137, 0.177, null],
+ [161, 0.1875, null],
+ [172, 0.192, null],
+ [212, 0.207, null],
+ [246.8, 0.2187, null],
+ [268, 0.2253, null],
+ [298, 0.2343, null],
+ [334, 0.2437, null],
+ [358, 0.25, null],
+ [410.9, 0.2625, null],
+ [458, 0.273, null],
+ [505.9, 0.283, null],
+ [536.9, 0.289, null],
+ [568.9, 0.295, null],
+ [632.9, 0.3065, null],
+ [668, 0.3125, null],
+ [709.8, 0.3195, null],
+ [784, 0.331, null],
+ [870.9, 0.3437, null],
+ [1011, 0.3625, null],
+ [1110.8, 0.375, null],
+ [1272.9, 0.3938, null],
+ [1387.6, 0.4062, null],
+ [1542, 0.4218, null],
+ [1632.8, 0.4305, null],
+ [1707.6, 0.4375, null],
+ [1882.8, 0.4531, null],
+ [1981.9, 0.4615, null],
+ [2069.3, 0.4687, null],
+ [2342.4, 0.49, null],
+ [2478.9, 0.5, null],
+ [2934.8, 0.5312, null],
+ [3442.7, 0.5625, null],
+ [4620, 0.625, null],
+];
+
+const inventoryMaxInchPound = [
+ [668, 0.312, "yellow"],
+ [870.9, 0.343, "brown"],
+ [1110.8, 0.375, "red"],
+ [1387.6, 0.406, "white"],
+ [1542, 0.421, "gold"],
+ [1707.6, 0.437, "blue"],
+ [1882.8, 0.453, "pink"],
+ [2069.3, 0.468, "orange"],
+ [2342.4, 0.490, "black"],
+ [2478.9, 0.5, "blue"],
+ [2934.8, 0.531, "beige"],
+ [4620, 0.625, "green"],
+];
+/*
+const inventoryMaxInchPound=[
+[52,0.125],
+[65,0.135],
+[75,0.142],
+[93,0.1562],
+[107,0.162],
+[119,0.17],
+[137,0.177],
+[161,0.1875],
+[172,0.192],
+[212,0.207],
+[246.8,0.2187],
+[268,0.2253],
+[298,0.2343],
+[334,0.2437],
+[358,0.25],
+[410.9,0.2625],
+[458,0.273],
+[505.9,0.283],
+[536.9,0.289],
+[568.9,0.295],
+[632.9,0.3065],
+[668,0.3125],
+[709.8,0.3195],
+[784,0.331],
+[870.9,0.3437],
+[1110.8,0.375],
+[1272.9,0.3938],
+[1387.6,0.4062],
+[1542,0.4218],
+[1632.8,0.4305],
+[1707.6,0.4375],
+[1882.8,0.4531],
+[1981.9,0.4615],
+[2069.3,0.4687],
+[2342.4,0.49],
+[2478.9,0.5],
+[2934.8,0.5312],
+[3442.7,0.5625],
+[4620,0.625]
+];
+*/
+// Select data set to use
+function setSpringsBasquetToChooseFrom() {
+ const inventoryData = inventoryMaxInchPound;
+ const optimalData = optimalMaxInchPound;
+ const inventorizedRadioBtn = document.querySelector("#spring-on-hand");
+ const optimalRadioBtn = document.querySelector("#optimal-spring");
+
+ if (optimalRadioBtn.checked) {
+  return optimalData;
+ }
+ if (inventorizedRadioBtn.checked) {
+  return inventoryData;
+ }
+}
+
+let requiredInchPoundsInRange;
+function selectSpringWireDiameter () {
+ let strongEnoughWireFound = false;
+ let selectedWireDiam = 0;
+ let selectedWireColor = "";
+ calcDat.springDataSetToUse = setSpringsBasquetToChooseFrom();
+
+ for (let i = 0; i < calcDat.springDataSetToUse.length; i++) {
+  if (calcDat.springDataSetToUse[i][0] >= calcDat.requiredInchPound) {
+   selectedWireDiam = calcDat.springDataSetToUse[i][1];
+   selectedWireColor = calcDat.springDataSetToUse[i][2];
+   strongEnoughWireFound = true;
+  }
+  if (strongEnoughWireFound) {
+   // On match, exit for-loop.
+   // strongEnoughWireFound = 'optimalMaxInchPoundFound';
+   break;
+  }
+ }
+ // Check if exit for-loop was due to match or was exhausted due to match not found.
+ if (strongEnoughWireFound === false) {
+  // Error. Excessive load for existing wire diameter
+  numCruncherError(
+   `The ${Math.round(
+    calcDat.requiredInchPound
+   )} InchPound required is too large for existing wire diameters.`
+  );
+  /*
+`Sorry. The ${Math.round(calcDat.requiredInchPound)} InchPound required is too large for existing wire diameters.`
+*/
+  requiredInchPoundsInRange = false;
+
+  // console.log (`Sorry. The ${Math.round(calcDat.requiredInchPound)} InchPound value required is too large for existing wire diameters.`);
+ } else {
+  // Save selectedWireDiam to result object as a datum value:
+  calcDat.selectedWireDiam = selectedWireDiam;
+  calcDat.selectedWireColor = selectedWireColor;
+  requiredInchPoundsInRange = true;
+
+  console.log("selectSpringWireDiameter(): ", {
+   selectedWireDiam
+  });
+ }
+ return selectedWireDiam;
+}
+
+// postWireDiaToResultsPage() no longer used:
+
+// § @@@
+
+// § @@@
+
+/* Start of CALCULATING SPRING LENGTH */
+function springLength() {
+ console.log(
+  `IPPT = (${calcDat.lowMomentArm} * ${calcDat.closedHangingWeight}) - (${calcDat.rO} * ${calcDat.openHangingWeight}) / ${calcDat.dR}`
+ );
+ const ippt =
+ ((calcDat.lowMomentArm * calcDat.closedHangingWeight) -
+  (calcDat.rO * calcDat.openHangingWeight)) /
+ calcDat.dR;
+
+ calcDat.ippt = ippt;
+ console.log("ippt: ",
+  calcDat.ippt
+ );
+
+ const fifthPowerOfWireDiam =
+ calcDat.selectedWireDiam *
+ calcDat.selectedWireDiam *
+ calcDat.selectedWireDiam *
+ calcDat.selectedWireDiam *
+ calcDat.selectedWireDiam;
+ const springLength =
+ calcDat.selectedWireDiam + // Adding thickness of 1 inactive coil for mechanical attachment of spring to hardware assembly.
+ (3007281.86530169* fifthPowerOfWireDiam) /
+ (calcDat.ippt * (rd.spring.dataPoints.intDia + calcDat.selectedWireDiam));
+
+ calcDat.springLength = springLength;
+ console.log("springLength(): ", 
+  calcDat.springLength
+ );
+
+ return springLength;
+}
+
+function springTurns() {
+ const n = calcDat.springLength / calcDat.selectedWireDiam;
+
+ calcDat.amountOfCoils = n;
+ // console.log ('springTurns', {n});
+
+ return n;
+}
+
+function springWeight() {
+ const wireRadius = 0.5 * calcDat.selectedWireDiam;
+ // console.log('wire Radius: ', {wireRadius});
+
+ const wireCrossSectionArea = Math.PI * wireRadius * wireRadius;
+ // console.log('wire Cross Section Area: ', {wireCrossSectionArea});
+
+ const springMeanDiam = rd.spring.dataPoints.intDia + calcDat.selectedWireDiam;
+ // console.log('spring Mean Diam: ', {springMeanDiam});
+
+ const oneCoilVolume = Math.PI * springMeanDiam * wireCrossSectionArea;
+ // console.log ('one Coil Volume: ', {oneCoilVolume});
+
+ const springCoilsCount = springTurns();
+ // console.log ('spring Coils Count: ', {springCoilsCount});
+
+ const allCoilsVolume = oneCoilVolume * springCoilsCount;
+ // console.log ('all Coils Volume', {allCoilsVolume});
+
+ const springWeight = allCoilsVolume * constDat.highCarbSteelSpecificWeight;
+
+ calcDat.springWeight = springWeight;
+ // console.log ('spring Weight(): ', {springWeight});
+
+ return springWeight;
+}
+/* end CALCULATING SPRING LENGTH */
+
+// This function adjusts 'number' to a desired 'length'
+function numMolder(number, lengthSpec = 5) {
+ // Convert number to string
+ const numStr = number.toString();
+
+ //Extract integer part
+ const integerSlice = xtract.integerPart(`${numStr}`);
+
+ // Significant figures count of integer part
+ const integerSliceDigitsCount = xtract.sigFiguresCount(integerSlice);
+
+ // Compute necessary number of decimal places to make the number string a desired number length
+ const necessaryDecimalPlaces = lengthSpec - integerSliceDigitsCount;
+
+ const adjustedLengthNum = number.toFixed(necessaryDecimalPlaces);
+
+ //const adjustedLengthNum=Math.round(number*decimalShifter)/decimalShifter;
+ return adjustedLengthNum;
+}
+
+function spoolSpringSpecs () {
+ const inchesA = document.querySelector("#inches-a");
+ const datumA = document.querySelector("#datum-a");
+
+ inchesA.textContent = numMolder(calcDat.selectedWireDiam, 5);
+ inchesA.style.backgroundColor = "gray";
+ datumA.style.backgroundColor = "gray";
+ const invWiresSelected = document.querySelector("#spring-on-hand");
+ if (invWiresSelected.checked) {
+  if (calcDat.selectedWireColor === "brown") {
+   inchesA.style.color = "#4f0f0f";
+   datumA.style.color = "#4f0f0f";
+   // datumA.innerHTML = "brown Wire";
+  datumA.innerHTML = `Brown Wire, Qty. ${calcDat.amountOfSprings}`;
+   
+  } else {
+   inchesA.style.color = calcDat.selectedWireColor;
+   datumA.style.color = calcDat.selectedWireColor;
+   // datumA.innerHTML = calcDat.selectedWireColor.concat(" Wire Diameter");
+   datumA.innerHTML = calcDat.selectedWireColor.concat(` Wire Diameter, Qty. ${calcDat.amountOfSprings}`);
+  }
+ }else{
+datumA.innerHTML =`Wire Diameter, Qty. ${calcDat.amountOfSprings}`;
+ }
+
+ document.querySelector("#inches-b").textContent = numMolder(
+  calcDat.internalDiameter,
+  4
+ );
+ document.querySelector("#inches-b").style.color = "white";
+
+ document.querySelector("#inches-c").textContent = numMolder(
+  calcDat.springLength,
+  4
+ );
+ document.querySelector("#inches-c").style.color = "white";
+
+ document.querySelector("#inches-d").textContent = numMolder(
+  calcDat.amountOfCoils,
+  4
+ );
+ document.querySelector("#inches-d").style.color = "white";
+
+ document.querySelector("#inches-e").textContent = numMolder(
+  calcDat.springWeight,
+  4
+ );
+ document.querySelector("#inches-e").style.color = "white";
+ // Display suggested endplateSize
+ if (errorStack.length === 0) {
+  const endPlateSuggestion = document.querySelector("h4");
+  endPlateSuggestion.style.color = "lightgreen";
+  endPlateSuggestion.innerHTML = `Suggested endplate size: ${calcDat.exactEndplateSize}    👀`;
+ }
+}
+/* end CALCULATING SPRING LENGTH */
+function unspoolSpringSpecs () {
+ document.querySelector("#inches-a").textContent = "******";
+ document.querySelector("#inches-a").style.color = "black";
+
+ document.querySelector("#inches-b").textContent = "******";
+ document.querySelector("#inches-b").style.color = "black";
+
+ document.querySelector("#inches-c").textContent = "******";
+ document.querySelector("#inches-c").style.color = "black";
+
+ document.querySelector("#inches-d").textContent = "******";
+ document.querySelector("#inches-d").style.color = "black";
+
+ document.querySelector("#inches-e").textContent = "******";
+ document.querySelector("#inches-e").style.color = "black";
+
+ document.querySelector("#inches-a").style.backgroundColor = "darkred";
+
+ document.querySelector("#inches-b").style.backgroundColor = "darkred";
+
+ document.querySelector("#inches-c").style.backgroundColor = "darkred";
+
+ document.querySelector("#inches-d").style.backgroundColor = "darkred";
+
+ document.querySelector("#inches-e").style.backgroundColor = "darkred";
+
+ document.querySelector("#datum-a").innerHTML = " No Wire";
+
+ // Display the 1st error message that occured to image area.
+ // Erase background image
+ document.querySelector(":root").style.setProperty("--component-sketch", "");
+ // reduce image height
+ document.querySelector("#sketch-of-active-component").style.height = "6rem";
+ // Output text to bulletin span that is inside image area
+ document.querySelector(
+  "#sketch-of-active-component"
+ ).textContent = `⚠️ ${errorStack[0]}`;
+ document.querySelector("#sketch-of-active-component").style.color = "red";
+ // "turn on" the colored blinker changing the transparent color to a visible color
+ document
+ .querySelector(":root")
+ .style.setProperty("--blink-color", "magenta"); //rgb(25,25,190) #151530 #291609
+}
+
+function postToResultPage () {
+ if (errorStack.length === 0) {
+  spoolSpringSpecs();
+ } else {
+  unspoolSpringSpecs();
+ }
+ console.log("MY WHOLE APP CALC'd SPECS: ", {
+  calcDat
+ });
+}
+// oldResultProcessing() no longer used
+
+function updateCalcBtnStyle() {
+ if (requiredInchPoundsInRange === true && errorStack.length === 0) {
+  document.querySelector("#calc-results").style.backgroundColor = "lightgray";
+  document.querySelector("#calc-results").style.color = "darkgreen";
+  document.querySelector("#calc-results").value = "SUCCESS!";
+ } else {
+  document.querySelector("#calc-results").style.backgroundColor = "lightgray";
+  document.querySelector("#calc-results").style.color = "darkred";
+  document.querySelector("#calc-results").value =
+  "HUSTON, WE HAVE A PROBLEM!";
+  requiredInchPoundsInRange = true;
+ }
+ return;
+}
+
+function virtualCutout() {
+ // this function is only for debugging purposes. Assumptions: Interior mount, std tracks size.
+ const overlapWithWall = constDat.slatOverlapWithWallIntMount;
+ const width =
+ rd.rdOutline.dataPoints.width -
+ calcDat.outlineLRThickness -
+ overlapWithWall;
+ const height =
+ rd.rdOutline.dataPoints.height -
+ calcDat.exactEndplateSize -
+ constDat.bbStopDistanceBelowEndPlate -
+ constDat.bbBeyondWallCutoutHeight;
+ console.log("Virtual Cutout: ", `${width}W X ${height}H`);
+}
+
+function updateAfterNumCrunching() {
+ // This delay is to extend the time of the capture data btn animation. Otherwise animation won't be perceived.
+ setTimeout(() => updateCalcBtnStyle(), 175);
+}
+
+function determineAllSpringSpecs() {
+ updRdWithVaultedDataPoints();
+ // @1 approximate bbTravel is inside buildCalcDat()()
+ buildCalcDat1();
+ buildCalcDat2();
+ adjDueToCompressedAndWrappedSlats();
+ //(@2) approximate rO
+ calcRoDrForHgoal();
+ //(@3) rO to calculate exactEndplateSize
+ exactEndplateSize();
+ // (@4) 2nd iteration to obtain exactHGoal
+ exactHGoal();
+ // 2nd iteration to correct rO and dR
+ calcRoDrForHgoal(calcDat.exactHGoal);
+ fineTunner(calcDat.exactHGoal);
+ openHangingHeight();
+ closedHangingHeight();
+
+ slatAssemblyWidth();
+ // Adjust calcDat weight contributors to take into account the amount of springs
+ accountForAmountOfSprings();
+
+ slatWidth();
+ oneSlatWeight();
+
+ bbAnglesWeight();
+ astragalWeight();
+ slideboltsWeight();
+ bbAssemblyWeight();
+
+ openHangingSlatCount();
+ openEndlocksCount();
+ openHangingWeight();
+
+ closedHangingSlatCount();
+ closedEndlocksCount();
+ closedWindlocksCount();
+ closedHangingWeight();
+
+ lowMomentArm();
+ requiredInchPound();
+ selectSpringWireDiameter();
+
+ springLength();
+ springTurns();
+ springWeight();
+
+ vaultSscValues();
+
+ postToResultPage();
+ virtualCutout();
+
+ updateAfterNumCrunching();
+}
+
+// load-measurements is supplanted by calc-results on the resultTemplate
+const calcResultsBtn = document.querySelector("#calc-results");
+// Timeout for button animation
+let blockMultipleCalcResults;
+calcResultsBtn.addEventListener("mouseup", () => {
+ if (blockMultipleCalcResults) {
+  return;
+ }
+ setTimeout(function () {
+  determineAllSpringSpecs();
+  blockMultipleCalcResults = true;
+ }, 250);
+});
+
+/*
+Need error stack to retrieve it within the Band Spring Selector
+*/
+function vaultErrorStack () {
+  window.localStorage.setItem('errorStack', JSON.stringify(errorStack));
+ }
+
+function bsNumCruncher() {
+ updRdWithVaultedDataPoints();
+ // @1 approximate bbTravel is inside buildCalcDat()()
+ buildCalcDat2();
+adjDueToCompressedAndWrappedSlats();
+ //(@2) approximate rO
+ calcRoDrForHgoal();
+ //(@3) rO to calculate exactEndplateSize
+ exactEndplateSize();
+ // (@4) 2nd iteration to obtain exactHGoal
+ exactHGoal();
+ // 2nd iteration to correct rO and dR
+ calcRoDrForHgoal(calcDat.exactHGoal);
+ fineTunner(calcDat.exactHGoal);
+ //openHangingHeight();
+ closedHangingHeight();
+
+ slatAssemblyWidth();
+ // Adjust calcDat weight contributors to take into account the amount of springs
+ //accountForAmountOfSprings();
+
+ slatWidth();
+ oneSlatWeight();
+
+ bbAnglesWeight();
+ astragalWeight();
+ slideboltsWeight();
+ bbAssemblyWeight();
+
+ //openHangingSlatCount();
+ //openEndlocksCount();
+ //openHangingWeight();
+
+ closedHangingSlatCount();
+ closedEndlocksCount();
+ closedWindlocksCount();
+ closedHangingWeight();
+
+ //lowMomentArm();
+ //requiredInchPound();
+ //selectSpringWireDiameter();
+
+ //springLength();
+ //springTurns();
+ //springWeight();
+
+ //postToResultPage();
+ virtualCutout();
+vaultErrorStack();
+ //updateAfterNumCrunching();
+console.log("MY WHOLE APP CALC'd SPECS: ", {
+  calcDat
+ });
+}
+
+ // Vault parameters for SSC Corp reliability and conversion
+  // §
+function vaultSscValues (){
+const springPropsIn ={
+ springQty: calcDat.amountOfSprings,
+springID: calcDat.internalDiameter, springWireSize: calcDat.selectedWireDiam, 
+springLength: calcDat.springLength,
+maxTurns:calcDat.dR, 
+ippt:calcDat.ippt, 
+activeCoils:calcDat.amountOfCoils, 
+totalCoils:calcDat.amountOfCoils, 
+weight:calcDat.springWeight, 
+cycles:`10,000`, 
+
+lowMomentArm: calcDat.lowMomentArm, 
+highMomentArm: calcDat.rO,
+totalWeight:calcDat.closedHangingWeight,
+openWeight:calcDat.openHangingWeight,
+revolutionsOfBarrel:calcDat.dR
+
+};
+
+
+
+console.log(springPropsIn);
+window.localStorage.setItem('springProps', JSON.stringify(springPropsIn));
+}
+
+let sscWireBtn=document.querySelector('.ssc-wire');
+function loadSscWireDoc (){
+ window.location='changeWire.html';
+}
+sscWireBtn.addEventListener('click', loadSscWireDoc);
+
+
+let sscCyclesBtn=document.querySelector('.ssc-cycles');
+function loadSscCyclesDoc (){
+ window.location='changeCycles.html';
+}
+sscCyclesBtn.addEventListener('click', loadSscCyclesDoc);
+/* Previous Script Version : '2021.10.07a'
+Added two screens to extend capabilities of this designer by using the SSC App;
+- 
+- 
+
+
+/* Previous Script Version : '2021.08.19a'
+Added two extra result screens to ease usage of the Service Spring Corp. Solutions App. This features enable user to design for high cycle applications, and to excerpt better control of the design reliability. It also provide means to optimize sprkng selection.
+*/
+
+/* Previous Script Version 2021.07.07a
+Changes for Script Version 2021.07.15a:
+- Corrected std endPlate sizes for Minyety
+- Added one "inactive" wire thickness to spring length result 
+*/
